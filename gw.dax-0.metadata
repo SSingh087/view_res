@@ -1,6 +1,6 @@
 {
-  "root_workflow_uuid": "c64f890e-4dec-450a-b3cf-7c42e9b0456c",
-  "workflow_uuid": "c64f890e-4dec-450a-b3cf-7c42e9b0456c",
+  "root_workflow_uuid": "189a4f51-81db-4be2-bdda-8d04c5acedc8",
+  "workflow_uuid": "189a4f51-81db-4be2-bdda-8d04c5acedc8",
   "wf_metadata": {
     "wf.api": "python"
   },
