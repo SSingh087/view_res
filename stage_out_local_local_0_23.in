@@ -1,0 +1,121 @@
+[
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_7739-0-10.hdf",
+   "id": 1,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_7739-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_7739-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_5478-0-10.hdf",
+   "id": 2,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_5478-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_5478-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_5755-0-10.hdf",
+   "id": 3,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_5755-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_5755-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_2576-0-10.hdf",
+   "id": 4,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_2576-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_2576-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_1718-0-10.hdf",
+   "id": 5,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_1718-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_1718-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_1906-0-10.hdf",
+   "id": 6,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_1906-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_1906-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_2128-0-10.hdf",
+   "id": 7,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_2128-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_2128-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_8243-0-10.hdf",
+   "id": 8,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_8243-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_8243-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_3681-0-10.hdf",
+   "id": 9,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_3681-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_3681-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_672-0-10.hdf",
+   "id": 10,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_672-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_672-0-10.hdf" }
+   ] }
+]

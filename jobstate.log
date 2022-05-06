@@ -1,0 +1,26 @@
+1651833867 INTERNAL *** MONITORD_STARTED ***
+1651833865 INTERNAL *** DAGMAN_STARTED 7781456.0 ***
+1651833869 create_dir_gw.dax_0_local SUBMIT_FAILED - local - 1
+1651833874 create_dir_gw.dax_0_local SUBMIT_FAILED - local - 2
+1651833879 create_dir_gw.dax_0_local SUBMIT_FAILED - local - 3
+1651833884 create_dir_gw.dax_0_local SUBMIT_FAILED - local - 4
+1651833895 create_dir_gw.dax_0_local SUBMIT_FAILED - local - 5
+1651833912 create_dir_gw.dax_0_local SUBMIT_FAILED - local - 6
+1651833912 create_dir_gw.dax_0_local POST_SCRIPT_STARTED - local - 6
+1651833913 create_dir_gw.dax_0_local POST_SCRIPT_TERMINATED -1.0 local - 6
+1651833917 create_dir_gw.dax_0_local POST_SCRIPT_FAILURE 1 local - 6
+1651833917 INTERNAL *** DAGMAN_FINISHED 1 ***
+1651833919 INTERNAL *** MONITORD_FINISHED 0 ***
+1651834119 INTERNAL *** MONITORD_STARTED ***
+1651834118 INTERNAL *** DAGMAN_STARTED 7781463.0 ***
+1651834122 create_dir_gw.dax_0_local SUBMIT_FAILED - local - 7
+1651834127 create_dir_gw.dax_0_local SUBMIT_FAILED - local - 8
+1651834132 create_dir_gw.dax_0_local SUBMIT_FAILED - local - 9
+1651834137 create_dir_gw.dax_0_local SUBMIT_FAILED - local - 10
+1651834148 create_dir_gw.dax_0_local SUBMIT_FAILED - local - 11
+1651834166 create_dir_gw.dax_0_local SUBMIT_FAILED - local - 12
+1651834166 create_dir_gw.dax_0_local POST_SCRIPT_STARTED - local - 12
+1651834166 create_dir_gw.dax_0_local POST_SCRIPT_TERMINATED -1.0 local - 12
+1651834171 create_dir_gw.dax_0_local POST_SCRIPT_FAILURE 1 local - 12
+1651834171 INTERNAL *** DAGMAN_FINISHED 1 ***
+1651834173 INTERNAL *** MONITORD_FINISHED 0 ***
