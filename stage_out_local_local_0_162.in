@@ -5,10 +5,10 @@
    "id": 1,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_1067-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-INFERENCE_1067-0-10.hdf" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_1067-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/inference/H1-INFERENCE_1067-0-10.hdf" }
    ] }
  ,
  { "type": "transfer",
@@ -17,10 +17,10 @@
    "id": 2,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_1229-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-INFERENCE_1229-0-10.hdf" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_1229-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/inference/H1-INFERENCE_1229-0-10.hdf" }
    ] }
  ,
  { "type": "transfer",
@@ -29,10 +29,10 @@
    "id": 3,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_1450-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-INFERENCE_1450-0-10.hdf" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_1450-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/inference/H1-INFERENCE_1450-0-10.hdf" }
    ] }
  ,
  { "type": "transfer",
@@ -41,10 +41,10 @@
    "id": 4,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_1599-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-INFERENCE_1599-0-10.hdf" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_1599-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/inference/H1-INFERENCE_1599-0-10.hdf" }
    ] }
  ,
  { "type": "transfer",
@@ -53,10 +53,10 @@
    "id": 5,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_2951-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-INFERENCE_2951-0-10.hdf" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_2951-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/inference/H1-INFERENCE_2951-0-10.hdf" }
    ] }
  ,
  { "type": "transfer",
@@ -65,10 +65,10 @@
    "id": 6,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_8004-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-INFERENCE_8004-0-10.hdf" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_8004-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/inference/H1-INFERENCE_8004-0-10.hdf" }
    ] }
  ,
  { "type": "transfer",
@@ -77,10 +77,10 @@
    "id": 7,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_160-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-INFERENCE_160-0-10.hdf" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_160-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/inference/H1-INFERENCE_160-0-10.hdf" }
    ] }
  ,
  { "type": "transfer",
@@ -89,10 +89,10 @@
    "id": 8,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_298-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-INFERENCE_298-0-10.hdf" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_298-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/inference/H1-INFERENCE_298-0-10.hdf" }
    ] }
  ,
  { "type": "transfer",
@@ -101,10 +101,10 @@
    "id": 9,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_3842-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-INFERENCE_3842-0-10.hdf" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_3842-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/inference/H1-INFERENCE_3842-0-10.hdf" }
    ] }
  ,
  { "type": "transfer",
@@ -113,9 +113,9 @@
    "id": 10,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-INFERENCE_5317-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-INFERENCE_5317-0-10.hdf" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/inference/H1-INFERENCE_5317-0-10.hdf" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/inference/H1-INFERENCE_5317-0-10.hdf" }
    ] }
 ]

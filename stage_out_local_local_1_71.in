@@ -5,10 +5,10 @@
    "id": 1,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-PLOT_835-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-PLOT_835-0-10.png" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/plot/H1-PLOT_835-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/plot/H1-PLOT_835-0-10.png" }
    ] }
  ,
  { "type": "transfer",
@@ -17,10 +17,10 @@
    "id": 2,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-PLOT_4407-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-PLOT_4407-0-10.png" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/plot/H1-PLOT_4407-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/plot/H1-PLOT_4407-0-10.png" }
    ] }
  ,
  { "type": "transfer",
@@ -29,10 +29,10 @@
    "id": 3,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-PLOT_4638-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-PLOT_4638-0-10.png" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/plot/H1-PLOT_4638-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/plot/H1-PLOT_4638-0-10.png" }
    ] }
  ,
  { "type": "transfer",
@@ -41,10 +41,10 @@
    "id": 4,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-PLOT_2646-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-PLOT_2646-0-10.png" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/plot/H1-PLOT_2646-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/plot/H1-PLOT_2646-0-10.png" }
    ] }
  ,
  { "type": "transfer",
@@ -53,10 +53,10 @@
    "id": 5,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-PLOT_6264-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-PLOT_6264-0-10.png" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/plot/H1-PLOT_6264-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/plot/H1-PLOT_6264-0-10.png" }
    ] }
  ,
  { "type": "transfer",
@@ -65,10 +65,10 @@
    "id": 6,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-PLOT_3036-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-PLOT_3036-0-10.png" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/plot/H1-PLOT_3036-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/plot/H1-PLOT_3036-0-10.png" }
    ] }
  ,
  { "type": "transfer",
@@ -77,10 +77,10 @@
    "id": 7,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-PLOT_3284-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-PLOT_3284-0-10.png" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/plot/H1-PLOT_3284-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/plot/H1-PLOT_3284-0-10.png" }
    ] }
  ,
  { "type": "transfer",
@@ -89,10 +89,10 @@
    "id": 8,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-PLOT_8359-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-PLOT_8359-0-10.png" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/plot/H1-PLOT_8359-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/plot/H1-PLOT_8359-0-10.png" }
    ] }
  ,
  { "type": "transfer",
@@ -101,10 +101,10 @@
    "id": 9,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-PLOT_8432-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-PLOT_8432-0-10.png" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/plot/H1-PLOT_8432-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/plot/H1-PLOT_8432-0-10.png" }
    ] }
  ,
  { "type": "transfer",
@@ -113,9 +113,9 @@
    "id": 10,
    "verify_checksum_remote": true,
    "src_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work/./H1-PLOT_8676-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-PLOT_8676-0-10.png" }
    ],
    "dest_urls": [
-     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/plot/H1-PLOT_8676-0-10.png" }
+     { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/plot/H1-PLOT_8676-0-10.png" }
    ] }
 ]

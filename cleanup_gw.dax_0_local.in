@@ -2,5 +2,5 @@
   {
     "id": 1,
     "type": "remove",
-    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/output/local-site-scratch/work", "recursive": "True" } }
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work", "recursive": "True" } }
 ]
