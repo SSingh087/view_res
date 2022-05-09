@@ -29,7 +29,9 @@ def to_file(path, ifo=None):
     print(path)
     ## get the complete path similar to >>pwd + 'path'
     fil.add_pfn(path, "local")
-    ##
+    ## what PFN is https://pegasus.isi.edu/documentation/reference-guide/api-reference.html
+    ## https://pegasus.isi.edu/documentation/reference-guide/catalogs.html
+    ## https://github.com/gwastro/pycbc/blob/ba7e6159e09518d91bad6171a2a6700ebcd923a3/pycbc/workflow/pegasus_workflow.py#L836
     return fil
 
 def get_flow(time, m1, m2):
@@ -137,16 +139,12 @@ for ifo in mopt:
     psds[ifo] = pycbc.psd.from_string(mopt[ifo], flen, df, flow[ifo])
 
 # create workflow and sub-workflows
-# ------------------------------------
 workflow = wf.Workflow(opts) # file name req ?
 
 # make data output and results directories
-# -----------------------------------------
 wf.makedir(opts.output_dir)
-print("output_dir created")
 
 # construct Executable for running sampler
-# -----------------------------------------
 inference_exe = wf.Executable(workflow.cp, "inference", ifos=workflow.ifos) #,out_dir=opts.output_dir)
 
 plot_exe = wf.Executable(workflow.cp, "plot", ifos=workflow.ifos) #, out_dir=opts.output_dir)
