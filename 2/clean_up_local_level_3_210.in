@@ -1,6 +1,0 @@
-[
-  {
-    "id": 1,
-    "type": "remove",
-    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch/work/./H1-INFERENCE_2033-0-10.hdf", "recursive": "False" } }
-]
