@@ -1,0 +1,6 @@
+source env/bin/activate
+source ~/.bashrc
+export XDG_CONFIG_HOME=$PWD
+export HDF5_USE_FILE_LOCKING=FALSE
+export PATH=/software/tools/pegasus/5.0/bin/:$PATH
+

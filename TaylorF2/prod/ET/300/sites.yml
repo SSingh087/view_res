@@ -1,0 +1,118 @@
+x-pegasus:
+  apiLang: python
+  createdBy: shashwat.singh
+  createdOn: 05-09-22T14:37:23Z
+pegasus: '5.0'
+sites:
+- name: local
+  arch: x86_64
+  os.type: linux
+  directories:
+  - type: sharedScratch
+    path: /work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch
+    sharedFileSystem: false
+    fileServers:
+    - url: file:///work/shashwat.singh/3gsky/prod/ET/300/output/local-site-scratch
+      operation: all
+  profiles:
+    condor:
+      accounting_group: cbc.prod.pe
+      getenv: 'True'
+    pegasus:
+      style: condor
+- name: condorpool_symlink
+  arch: x86_64
+  os.type: linux
+  directories: []
+  profiles:
+    condor:
+      accounting_group: cbc.prod.pe
+      +OpenScienceGrid: 'False'
+      should_transfer_files: 'Yes'
+      when_to_transfer_output: ON_EXIT_OR_EVICT
+      getenv: 'True'
+      +DESIRED_Sites: '"nogrid"'
+      +IS_GLIDEIN: '"False"'
+      +flock_local: 'True'
+    pegasus:
+      style: condor
+      transfer.links: 'true'
+      data.configuration: nonsharedfs
+      transfer.bypass.input.staging: 'true'
+      auxillary.local: 'true'
+    dagman:
+      retry: '2'
+- name: condorpool_copy
+  arch: x86_64
+  os.type: linux
+  directories: []
+  profiles:
+    condor:
+      accounting_group: cbc.prod.pe
+      +OpenScienceGrid: 'False'
+      should_transfer_files: 'Yes'
+      when_to_transfer_output: ON_EXIT_OR_EVICT
+      getenv: 'True'
+      +DESIRED_Sites: '"nogrid"'
+      +IS_GLIDEIN: '"False"'
+      +flock_local: 'True'
+    pegasus:
+      style: condor
+      data.configuration: nonsharedfs
+      transfer.bypass.input.staging: 'true'
+      auxillary.local: 'true'
+    dagman:
+      retry: '2'
+- name: condorpool_shared
+  arch: x86_64
+  os.type: linux
+  directories:
+  - type: sharedScratch
+    path: /work/shashwat.singh/3gsky/prod/ET/300/output/cpool-site-scratch
+    sharedFileSystem: false
+    fileServers:
+    - url: file:///work/shashwat.singh/3gsky/prod/ET/300/output/cpool-site-scratch
+      operation: all
+  profiles:
+    condor:
+      accounting_group: cbc.prod.pe
+      +OpenScienceGrid: 'False'
+      should_transfer_files: 'Yes'
+      when_to_transfer_output: ON_EXIT_OR_EVICT
+      getenv: 'True'
+      +DESIRED_Sites: '"nogrid"'
+      +IS_GLIDEIN: '"False"'
+      +flock_local: 'True'
+    pegasus:
+      style: condor
+      data.configuration: sharedfs
+      transfer.bypass.input.staging: 'true'
+      auxillary.local: 'true'
+    dagman:
+      retry: '2'
+    env:
+      PEGASUS_HOME: /software/tools/pegasus/5.0/
+- name: osg
+  arch: x86_64
+  os.type: linux
+  directories: []
+  profiles:
+    condor:
+      accounting_group: cbc.prod.pe
+      should_transfer_files: 'Yes'
+      when_to_transfer_output: ON_EXIT_OR_EVICT
+      +OpenScienceGrid: 'True'
+      getenv: 'False'
+      +InitializeModulesEnv: 'False'
+      +SingularityCleanEnv: 'True'
+      Requirements: (HAS_SINGULARITY =?= TRUE) && (HAS_LIGO_FRAMES =?= True) && (IS_GLIDEIN
+        =?= True)
+      +SingularityImage: '"/cvmfs/singularity.opensciencegrid.org/pycbc/pycbc-el7:v1.18.0"'
+    pegasus:
+      style: condor
+      data.configuration: nonsharedfs
+      transfer.bypass.input.staging: 'true'
+    dagman:
+      retry: '4'
+    env:
+      LAL_DATA_PATH: /cvmfs/oasis.opensciencegrid.org/ligo/sw/pycbc/lalsuite-extra/current/share/lalsimulation

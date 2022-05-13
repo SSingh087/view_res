@@ -1,0 +1,6240 @@
+x-pegasus:
+  apiLang: python
+  createdBy: shashwat.singh
+  createdOn: 05-09-22T14:37:23Z
+pegasus: '5.0'
+name: gw.dax
+replicaCatalog:
+  replicas:
+  - lfn: prior.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/config/prior.ini
+  - lfn: inj_0.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_0.ini
+  - lfn: inj_1.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_1.ini
+  - lfn: inj_2.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_2.ini
+  - lfn: inj_3.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_3.ini
+  - lfn: inj_4.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_4.ini
+  - lfn: inj_5.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_5.ini
+  - lfn: inj_6.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_6.ini
+  - lfn: inj_7.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_7.ini
+  - lfn: inj_8.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_8.ini
+  - lfn: inj_9.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_9.ini
+  - lfn: inj_10.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_10.ini
+  - lfn: inj_11.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_11.ini
+  - lfn: inj_12.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_12.ini
+  - lfn: inj_13.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_13.ini
+  - lfn: inj_14.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_14.ini
+  - lfn: inj_15.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_15.ini
+  - lfn: inj_16.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_16.ini
+  - lfn: inj_17.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_17.ini
+  - lfn: inj_18.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_18.ini
+  - lfn: inj_19.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_19.ini
+  - lfn: inj_20.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_20.ini
+  - lfn: inj_21.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_21.ini
+  - lfn: inj_22.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_22.ini
+  - lfn: inj_23.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_23.ini
+  - lfn: inj_24.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_24.ini
+  - lfn: inj_25.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_25.ini
+  - lfn: inj_26.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_26.ini
+  - lfn: inj_27.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_27.ini
+  - lfn: inj_28.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_28.ini
+  - lfn: inj_29.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_29.ini
+  - lfn: inj_30.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_30.ini
+  - lfn: inj_31.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_31.ini
+  - lfn: inj_32.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_32.ini
+  - lfn: inj_33.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_33.ini
+  - lfn: inj_34.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_34.ini
+  - lfn: inj_35.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_35.ini
+  - lfn: inj_36.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_36.ini
+  - lfn: inj_37.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_37.ini
+  - lfn: inj_38.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_38.ini
+  - lfn: inj_39.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_39.ini
+  - lfn: inj_40.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_40.ini
+  - lfn: inj_41.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_41.ini
+  - lfn: inj_42.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_42.ini
+  - lfn: inj_43.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_43.ini
+  - lfn: inj_44.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_44.ini
+  - lfn: inj_45.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_45.ini
+  - lfn: inj_46.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_46.ini
+  - lfn: inj_47.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_47.ini
+  - lfn: inj_48.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_48.ini
+  - lfn: inj_49.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_49.ini
+  - lfn: inj_50.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_50.ini
+  - lfn: inj_51.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_51.ini
+  - lfn: inj_52.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_52.ini
+  - lfn: inj_53.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_53.ini
+  - lfn: inj_54.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_54.ini
+  - lfn: inj_55.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_55.ini
+  - lfn: inj_56.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_56.ini
+  - lfn: inj_57.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_57.ini
+  - lfn: inj_58.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_58.ini
+  - lfn: inj_59.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_59.ini
+  - lfn: inj_60.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_60.ini
+  - lfn: inj_61.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_61.ini
+  - lfn: inj_62.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_62.ini
+  - lfn: inj_63.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_63.ini
+  - lfn: inj_64.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_64.ini
+  - lfn: inj_65.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_65.ini
+  - lfn: inj_66.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_66.ini
+  - lfn: inj_67.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_67.ini
+  - lfn: inj_68.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_68.ini
+  - lfn: inj_69.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_69.ini
+  - lfn: inj_70.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_70.ini
+  - lfn: inj_71.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_71.ini
+  - lfn: inj_72.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_72.ini
+  - lfn: inj_73.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_73.ini
+  - lfn: inj_74.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_74.ini
+  - lfn: inj_75.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_75.ini
+  - lfn: inj_76.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_76.ini
+  - lfn: inj_77.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_77.ini
+  - lfn: inj_78.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_78.ini
+  - lfn: inj_79.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_79.ini
+  - lfn: inj_80.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_80.ini
+  - lfn: inj_81.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_81.ini
+  - lfn: inj_82.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_82.ini
+  - lfn: inj_83.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_83.ini
+  - lfn: inj_84.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_84.ini
+  - lfn: inj_85.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_85.ini
+  - lfn: inj_86.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_86.ini
+  - lfn: inj_87.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_87.ini
+  - lfn: inj_88.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_88.ini
+  - lfn: inj_89.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_89.ini
+  - lfn: inj_90.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_90.ini
+  - lfn: inj_91.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_91.ini
+  - lfn: inj_92.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_92.ini
+  - lfn: inj_93.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_93.ini
+  - lfn: inj_94.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_94.ini
+  - lfn: inj_95.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_95.ini
+  - lfn: inj_96.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_96.ini
+  - lfn: inj_97.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_97.ini
+  - lfn: inj_98.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_98.ini
+  - lfn: inj_99.ini
+    pfns:
+    - site: local
+      pfn: /work/shashwat.singh/3gsky/prod/ET/300/output/inj_99.ini
+transformationCatalog:
+  transformations:
+  - name: inference_ID0
+    sites:
+    - name: condorpool_symlink
+      pfn: /work/shashwat.singh/cbc-hm/bin/pycbc_inference
+      type: installed
+      arch: x86_64
+      os.type: linux
+    profiles:
+      condor:
+        universe: vanilla
+      pegasus:
+        relative.submit.dir: inference
+  - name: plot_ID1
+    sites:
+    - name: condorpool_symlink
+      pfn: /work/shashwat.singh/cbc-hm/bin/pycbc_inference_plot_posterior
+      type: installed
+      arch: x86_64
+      os.type: linux
+    profiles:
+      condor:
+        universe: vanilla
+      pegasus:
+        relative.submit.dir: plot
+jobs:
+- type: job
+  name: inference_ID0
+  id: ID0000001
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_0.ini
+  - --output-file
+  - H1-INFERENCE_0-0-10.hdf
+  uses:
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_0.ini
+    type: input
+  - lfn: H1-INFERENCE_0-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000002
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_0-0-10.hdf
+  - --output-file
+  - H1-PLOT_0-0-10.png
+  uses:
+  - lfn: H1-PLOT_0-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_0-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000003
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_1.ini
+  - --output-file
+  - H1-INFERENCE_1-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_1-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_1.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000004
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_1-0-10.hdf
+  - --output-file
+  - H1-PLOT_1-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_1-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_1-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000005
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_2.ini
+  - --output-file
+  - H1-INFERENCE_2-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_2-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_2.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000006
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_2-0-10.hdf
+  - --output-file
+  - H1-PLOT_2-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_2-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_2-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000007
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_3.ini
+  - --output-file
+  - H1-INFERENCE_3-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_3-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_3.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000008
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_3-0-10.hdf
+  - --output-file
+  - H1-PLOT_3-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_3-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_3-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000009
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_4.ini
+  - --output-file
+  - H1-INFERENCE_4-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_4-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_4.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000010
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_4-0-10.hdf
+  - --output-file
+  - H1-PLOT_4-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_4-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_4-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000011
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_5.ini
+  - --output-file
+  - H1-INFERENCE_5-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_5-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_5.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000012
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_5-0-10.hdf
+  - --output-file
+  - H1-PLOT_5-0-10.png
+  uses:
+  - lfn: H1-PLOT_5-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_5-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000013
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_6.ini
+  - --output-file
+  - H1-INFERENCE_6-0-10.hdf
+  uses:
+  - lfn: inj_6.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_6-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000014
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_6-0-10.hdf
+  - --output-file
+  - H1-PLOT_6-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_6-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_6-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000015
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_7.ini
+  - --output-file
+  - H1-INFERENCE_7-0-10.hdf
+  uses:
+  - lfn: inj_7.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_7-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000016
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_7-0-10.hdf
+  - --output-file
+  - H1-PLOT_7-0-10.png
+  uses:
+  - lfn: H1-PLOT_7-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_7-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000017
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_8.ini
+  - --output-file
+  - H1-INFERENCE_8-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_8-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_8.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000018
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_8-0-10.hdf
+  - --output-file
+  - H1-PLOT_8-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_8-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_8-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000019
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_9.ini
+  - --output-file
+  - H1-INFERENCE_9-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_9-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_9.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000020
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_9-0-10.hdf
+  - --output-file
+  - H1-PLOT_9-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_9-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_9-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000021
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_10.ini
+  - --output-file
+  - H1-INFERENCE_10-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_10-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_10.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000022
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_10-0-10.hdf
+  - --output-file
+  - H1-PLOT_10-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_10-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_10-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000023
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_11.ini
+  - --output-file
+  - H1-INFERENCE_11-0-10.hdf
+  uses:
+  - lfn: inj_11.ini
+    type: input
+  - lfn: H1-INFERENCE_11-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000024
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_11-0-10.hdf
+  - --output-file
+  - H1-PLOT_11-0-10.png
+  uses:
+  - lfn: H1-PLOT_11-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_11-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000025
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_12.ini
+  - --output-file
+  - H1-INFERENCE_12-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_12-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_12.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000026
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_12-0-10.hdf
+  - --output-file
+  - H1-PLOT_12-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_12-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_12-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000027
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_13.ini
+  - --output-file
+  - H1-INFERENCE_13-0-10.hdf
+  uses:
+  - lfn: inj_13.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_13-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000028
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_13-0-10.hdf
+  - --output-file
+  - H1-PLOT_13-0-10.png
+  uses:
+  - lfn: H1-PLOT_13-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_13-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000029
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_14.ini
+  - --output-file
+  - H1-INFERENCE_14-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_14-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_14.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000030
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_14-0-10.hdf
+  - --output-file
+  - H1-PLOT_14-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_14-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_14-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000031
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_15.ini
+  - --output-file
+  - H1-INFERENCE_15-0-10.hdf
+  uses:
+  - lfn: inj_15.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_15-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000032
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_15-0-10.hdf
+  - --output-file
+  - H1-PLOT_15-0-10.png
+  uses:
+  - lfn: H1-PLOT_15-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_15-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000033
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_16.ini
+  - --output-file
+  - H1-INFERENCE_16-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_16-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_16.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000034
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_16-0-10.hdf
+  - --output-file
+  - H1-PLOT_16-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_16-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_16-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000035
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_17.ini
+  - --output-file
+  - H1-INFERENCE_17-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_17-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_17.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000036
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_17-0-10.hdf
+  - --output-file
+  - H1-PLOT_17-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_17-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_17-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000037
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_18.ini
+  - --output-file
+  - H1-INFERENCE_18-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_18-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_18.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000038
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_18-0-10.hdf
+  - --output-file
+  - H1-PLOT_18-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_18-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_18-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000039
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_19.ini
+  - --output-file
+  - H1-INFERENCE_19-0-10.hdf
+  uses:
+  - lfn: inj_19.ini
+    type: input
+  - lfn: H1-INFERENCE_19-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000040
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_19-0-10.hdf
+  - --output-file
+  - H1-PLOT_19-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_19-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_19-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000041
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_20.ini
+  - --output-file
+  - H1-INFERENCE_20-0-10.hdf
+  uses:
+  - lfn: inj_20.ini
+    type: input
+  - lfn: H1-INFERENCE_20-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000042
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_20-0-10.hdf
+  - --output-file
+  - H1-PLOT_20-0-10.png
+  uses:
+  - lfn: H1-PLOT_20-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_20-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000043
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_21.ini
+  - --output-file
+  - H1-INFERENCE_21-0-10.hdf
+  uses:
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_21.ini
+    type: input
+  - lfn: H1-INFERENCE_21-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000044
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_21-0-10.hdf
+  - --output-file
+  - H1-PLOT_21-0-10.png
+  uses:
+  - lfn: H1-PLOT_21-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_21-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000045
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_22.ini
+  - --output-file
+  - H1-INFERENCE_22-0-10.hdf
+  uses:
+  - lfn: inj_22.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_22-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000046
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_22-0-10.hdf
+  - --output-file
+  - H1-PLOT_22-0-10.png
+  uses:
+  - lfn: H1-PLOT_22-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_22-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000047
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_23.ini
+  - --output-file
+  - H1-INFERENCE_23-0-10.hdf
+  uses:
+  - lfn: inj_23.ini
+    type: input
+  - lfn: H1-INFERENCE_23-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000048
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_23-0-10.hdf
+  - --output-file
+  - H1-PLOT_23-0-10.png
+  uses:
+  - lfn: H1-PLOT_23-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_23-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000049
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_24.ini
+  - --output-file
+  - H1-INFERENCE_24-0-10.hdf
+  uses:
+  - lfn: inj_24.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_24-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000050
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_24-0-10.hdf
+  - --output-file
+  - H1-PLOT_24-0-10.png
+  uses:
+  - lfn: H1-PLOT_24-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_24-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000051
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_25.ini
+  - --output-file
+  - H1-INFERENCE_25-0-10.hdf
+  uses:
+  - lfn: inj_25.ini
+    type: input
+  - lfn: H1-INFERENCE_25-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000052
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_25-0-10.hdf
+  - --output-file
+  - H1-PLOT_25-0-10.png
+  uses:
+  - lfn: H1-PLOT_25-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_25-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000053
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_26.ini
+  - --output-file
+  - H1-INFERENCE_26-0-10.hdf
+  uses:
+  - lfn: inj_26.ini
+    type: input
+  - lfn: H1-INFERENCE_26-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000054
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_26-0-10.hdf
+  - --output-file
+  - H1-PLOT_26-0-10.png
+  uses:
+  - lfn: H1-PLOT_26-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_26-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000055
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_27.ini
+  - --output-file
+  - H1-INFERENCE_27-0-10.hdf
+  uses:
+  - lfn: inj_27.ini
+    type: input
+  - lfn: H1-INFERENCE_27-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000056
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_27-0-10.hdf
+  - --output-file
+  - H1-PLOT_27-0-10.png
+  uses:
+  - lfn: H1-PLOT_27-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_27-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000057
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_28.ini
+  - --output-file
+  - H1-INFERENCE_28-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_28-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_28.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000058
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_28-0-10.hdf
+  - --output-file
+  - H1-PLOT_28-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_28-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_28-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000059
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_29.ini
+  - --output-file
+  - H1-INFERENCE_29-0-10.hdf
+  uses:
+  - lfn: inj_29.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_29-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000060
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_29-0-10.hdf
+  - --output-file
+  - H1-PLOT_29-0-10.png
+  uses:
+  - lfn: H1-PLOT_29-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_29-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000061
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_30.ini
+  - --output-file
+  - H1-INFERENCE_30-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_30-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_30.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000062
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_30-0-10.hdf
+  - --output-file
+  - H1-PLOT_30-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_30-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_30-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000063
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_31.ini
+  - --output-file
+  - H1-INFERENCE_31-0-10.hdf
+  uses:
+  - lfn: inj_31.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_31-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000064
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_31-0-10.hdf
+  - --output-file
+  - H1-PLOT_31-0-10.png
+  uses:
+  - lfn: H1-PLOT_31-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_31-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000065
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_32.ini
+  - --output-file
+  - H1-INFERENCE_32-0-10.hdf
+  uses:
+  - lfn: inj_32.ini
+    type: input
+  - lfn: H1-INFERENCE_32-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000066
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_32-0-10.hdf
+  - --output-file
+  - H1-PLOT_32-0-10.png
+  uses:
+  - lfn: H1-PLOT_32-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_32-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000067
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_33.ini
+  - --output-file
+  - H1-INFERENCE_33-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_33-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_33.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000068
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_33-0-10.hdf
+  - --output-file
+  - H1-PLOT_33-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_33-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_33-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000069
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_34.ini
+  - --output-file
+  - H1-INFERENCE_34-0-10.hdf
+  uses:
+  - lfn: inj_34.ini
+    type: input
+  - lfn: H1-INFERENCE_34-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000070
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_34-0-10.hdf
+  - --output-file
+  - H1-PLOT_34-0-10.png
+  uses:
+  - lfn: H1-PLOT_34-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_34-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000071
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_35.ini
+  - --output-file
+  - H1-INFERENCE_35-0-10.hdf
+  uses:
+  - lfn: inj_35.ini
+    type: input
+  - lfn: H1-INFERENCE_35-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000072
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_35-0-10.hdf
+  - --output-file
+  - H1-PLOT_35-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_35-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_35-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000073
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_36.ini
+  - --output-file
+  - H1-INFERENCE_36-0-10.hdf
+  uses:
+  - lfn: inj_36.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_36-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000074
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_36-0-10.hdf
+  - --output-file
+  - H1-PLOT_36-0-10.png
+  uses:
+  - lfn: H1-PLOT_36-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_36-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000075
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_37.ini
+  - --output-file
+  - H1-INFERENCE_37-0-10.hdf
+  uses:
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_37-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_37.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000076
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_37-0-10.hdf
+  - --output-file
+  - H1-PLOT_37-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_37-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_37-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000077
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_38.ini
+  - --output-file
+  - H1-INFERENCE_38-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_38-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_38.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000078
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_38-0-10.hdf
+  - --output-file
+  - H1-PLOT_38-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_38-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_38-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000079
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_39.ini
+  - --output-file
+  - H1-INFERENCE_39-0-10.hdf
+  uses:
+  - lfn: inj_39.ini
+    type: input
+  - lfn: H1-INFERENCE_39-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000080
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_39-0-10.hdf
+  - --output-file
+  - H1-PLOT_39-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_39-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_39-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000081
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_40.ini
+  - --output-file
+  - H1-INFERENCE_40-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_40-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_40.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000082
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_40-0-10.hdf
+  - --output-file
+  - H1-PLOT_40-0-10.png
+  uses:
+  - lfn: H1-PLOT_40-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_40-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000083
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_41.ini
+  - --output-file
+  - H1-INFERENCE_41-0-10.hdf
+  uses:
+  - lfn: inj_41.ini
+    type: input
+  - lfn: H1-INFERENCE_41-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000084
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_41-0-10.hdf
+  - --output-file
+  - H1-PLOT_41-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_41-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_41-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000085
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_42.ini
+  - --output-file
+  - H1-INFERENCE_42-0-10.hdf
+  uses:
+  - lfn: inj_42.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_42-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000086
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_42-0-10.hdf
+  - --output-file
+  - H1-PLOT_42-0-10.png
+  uses:
+  - lfn: H1-PLOT_42-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_42-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000087
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_43.ini
+  - --output-file
+  - H1-INFERENCE_43-0-10.hdf
+  uses:
+  - lfn: inj_43.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_43-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000088
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_43-0-10.hdf
+  - --output-file
+  - H1-PLOT_43-0-10.png
+  uses:
+  - lfn: H1-PLOT_43-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_43-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000089
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_44.ini
+  - --output-file
+  - H1-INFERENCE_44-0-10.hdf
+  uses:
+  - lfn: inj_44.ini
+    type: input
+  - lfn: H1-INFERENCE_44-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000090
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_44-0-10.hdf
+  - --output-file
+  - H1-PLOT_44-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_44-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_44-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000091
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_45.ini
+  - --output-file
+  - H1-INFERENCE_45-0-10.hdf
+  uses:
+  - lfn: inj_45.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_45-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000092
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_45-0-10.hdf
+  - --output-file
+  - H1-PLOT_45-0-10.png
+  uses:
+  - lfn: H1-PLOT_45-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_45-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000093
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_46.ini
+  - --output-file
+  - H1-INFERENCE_46-0-10.hdf
+  uses:
+  - lfn: inj_46.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_46-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000094
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_46-0-10.hdf
+  - --output-file
+  - H1-PLOT_46-0-10.png
+  uses:
+  - lfn: H1-PLOT_46-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_46-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000095
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_47.ini
+  - --output-file
+  - H1-INFERENCE_47-0-10.hdf
+  uses:
+  - lfn: inj_47.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_47-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000096
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_47-0-10.hdf
+  - --output-file
+  - H1-PLOT_47-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_47-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_47-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000097
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_48.ini
+  - --output-file
+  - H1-INFERENCE_48-0-10.hdf
+  uses:
+  - lfn: inj_48.ini
+    type: input
+  - lfn: H1-INFERENCE_48-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000098
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_48-0-10.hdf
+  - --output-file
+  - H1-PLOT_48-0-10.png
+  uses:
+  - lfn: H1-PLOT_48-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_48-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000099
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_49.ini
+  - --output-file
+  - H1-INFERENCE_49-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_49-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_49.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000100
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_49-0-10.hdf
+  - --output-file
+  - H1-PLOT_49-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_49-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_49-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000101
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_50.ini
+  - --output-file
+  - H1-INFERENCE_50-0-10.hdf
+  uses:
+  - lfn: inj_50.ini
+    type: input
+  - lfn: H1-INFERENCE_50-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000102
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_50-0-10.hdf
+  - --output-file
+  - H1-PLOT_50-0-10.png
+  uses:
+  - lfn: H1-PLOT_50-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_50-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000103
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_51.ini
+  - --output-file
+  - H1-INFERENCE_51-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_51-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_51.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000104
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_51-0-10.hdf
+  - --output-file
+  - H1-PLOT_51-0-10.png
+  uses:
+  - lfn: H1-PLOT_51-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_51-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000105
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_52.ini
+  - --output-file
+  - H1-INFERENCE_52-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_52-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_52.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000106
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_52-0-10.hdf
+  - --output-file
+  - H1-PLOT_52-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_52-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_52-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000107
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_53.ini
+  - --output-file
+  - H1-INFERENCE_53-0-10.hdf
+  uses:
+  - lfn: inj_53.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_53-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000108
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_53-0-10.hdf
+  - --output-file
+  - H1-PLOT_53-0-10.png
+  uses:
+  - lfn: H1-PLOT_53-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_53-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000109
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_54.ini
+  - --output-file
+  - H1-INFERENCE_54-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_54-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_54.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000110
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_54-0-10.hdf
+  - --output-file
+  - H1-PLOT_54-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_54-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_54-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000111
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_55.ini
+  - --output-file
+  - H1-INFERENCE_55-0-10.hdf
+  uses:
+  - lfn: inj_55.ini
+    type: input
+  - lfn: H1-INFERENCE_55-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000112
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_55-0-10.hdf
+  - --output-file
+  - H1-PLOT_55-0-10.png
+  uses:
+  - lfn: H1-PLOT_55-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_55-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000113
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_56.ini
+  - --output-file
+  - H1-INFERENCE_56-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_56-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_56.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000114
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_56-0-10.hdf
+  - --output-file
+  - H1-PLOT_56-0-10.png
+  uses:
+  - lfn: H1-PLOT_56-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_56-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000115
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_57.ini
+  - --output-file
+  - H1-INFERENCE_57-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_57-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_57.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000116
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_57-0-10.hdf
+  - --output-file
+  - H1-PLOT_57-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_57-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_57-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000117
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_58.ini
+  - --output-file
+  - H1-INFERENCE_58-0-10.hdf
+  uses:
+  - lfn: inj_58.ini
+    type: input
+  - lfn: H1-INFERENCE_58-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000118
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_58-0-10.hdf
+  - --output-file
+  - H1-PLOT_58-0-10.png
+  uses:
+  - lfn: H1-PLOT_58-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_58-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000119
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_59.ini
+  - --output-file
+  - H1-INFERENCE_59-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_59-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_59.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000120
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_59-0-10.hdf
+  - --output-file
+  - H1-PLOT_59-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_59-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_59-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000121
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_60.ini
+  - --output-file
+  - H1-INFERENCE_60-0-10.hdf
+  uses:
+  - lfn: inj_60.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_60-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000122
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_60-0-10.hdf
+  - --output-file
+  - H1-PLOT_60-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_60-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_60-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000123
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_61.ini
+  - --output-file
+  - H1-INFERENCE_61-0-10.hdf
+  uses:
+  - lfn: inj_61.ini
+    type: input
+  - lfn: H1-INFERENCE_61-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000124
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_61-0-10.hdf
+  - --output-file
+  - H1-PLOT_61-0-10.png
+  uses:
+  - lfn: H1-PLOT_61-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_61-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000125
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_62.ini
+  - --output-file
+  - H1-INFERENCE_62-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_62-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_62.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000126
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_62-0-10.hdf
+  - --output-file
+  - H1-PLOT_62-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_62-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_62-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000127
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_63.ini
+  - --output-file
+  - H1-INFERENCE_63-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_63-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_63.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000128
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_63-0-10.hdf
+  - --output-file
+  - H1-PLOT_63-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_63-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_63-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000129
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_64.ini
+  - --output-file
+  - H1-INFERENCE_64-0-10.hdf
+  uses:
+  - lfn: inj_64.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_64-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000130
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_64-0-10.hdf
+  - --output-file
+  - H1-PLOT_64-0-10.png
+  uses:
+  - lfn: H1-PLOT_64-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_64-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000131
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_65.ini
+  - --output-file
+  - H1-INFERENCE_65-0-10.hdf
+  uses:
+  - lfn: inj_65.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_65-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000132
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_65-0-10.hdf
+  - --output-file
+  - H1-PLOT_65-0-10.png
+  uses:
+  - lfn: H1-PLOT_65-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_65-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000133
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_66.ini
+  - --output-file
+  - H1-INFERENCE_66-0-10.hdf
+  uses:
+  - lfn: inj_66.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_66-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000134
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_66-0-10.hdf
+  - --output-file
+  - H1-PLOT_66-0-10.png
+  uses:
+  - lfn: H1-PLOT_66-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_66-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000135
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_67.ini
+  - --output-file
+  - H1-INFERENCE_67-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_67-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_67.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000136
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_67-0-10.hdf
+  - --output-file
+  - H1-PLOT_67-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_67-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_67-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000137
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_68.ini
+  - --output-file
+  - H1-INFERENCE_68-0-10.hdf
+  uses:
+  - lfn: inj_68.ini
+    type: input
+  - lfn: H1-INFERENCE_68-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000138
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_68-0-10.hdf
+  - --output-file
+  - H1-PLOT_68-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_68-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_68-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000139
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_69.ini
+  - --output-file
+  - H1-INFERENCE_69-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_69-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_69.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000140
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_69-0-10.hdf
+  - --output-file
+  - H1-PLOT_69-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_69-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_69-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000141
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_70.ini
+  - --output-file
+  - H1-INFERENCE_70-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_70-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_70.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000142
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_70-0-10.hdf
+  - --output-file
+  - H1-PLOT_70-0-10.png
+  uses:
+  - lfn: H1-PLOT_70-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_70-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000143
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_71.ini
+  - --output-file
+  - H1-INFERENCE_71-0-10.hdf
+  uses:
+  - lfn: inj_71.ini
+    type: input
+  - lfn: H1-INFERENCE_71-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000144
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_71-0-10.hdf
+  - --output-file
+  - H1-PLOT_71-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_71-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_71-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000145
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_72.ini
+  - --output-file
+  - H1-INFERENCE_72-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_72-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_72.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000146
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_72-0-10.hdf
+  - --output-file
+  - H1-PLOT_72-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_72-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_72-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000147
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_73.ini
+  - --output-file
+  - H1-INFERENCE_73-0-10.hdf
+  uses:
+  - lfn: inj_73.ini
+    type: input
+  - lfn: H1-INFERENCE_73-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000148
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_73-0-10.hdf
+  - --output-file
+  - H1-PLOT_73-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_73-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_73-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000149
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_74.ini
+  - --output-file
+  - H1-INFERENCE_74-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_74-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_74.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000150
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_74-0-10.hdf
+  - --output-file
+  - H1-PLOT_74-0-10.png
+  uses:
+  - lfn: H1-PLOT_74-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_74-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000151
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_75.ini
+  - --output-file
+  - H1-INFERENCE_75-0-10.hdf
+  uses:
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_75.ini
+    type: input
+  - lfn: H1-INFERENCE_75-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000152
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_75-0-10.hdf
+  - --output-file
+  - H1-PLOT_75-0-10.png
+  uses:
+  - lfn: H1-PLOT_75-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_75-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000153
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_76.ini
+  - --output-file
+  - H1-INFERENCE_76-0-10.hdf
+  uses:
+  - lfn: inj_76.ini
+    type: input
+  - lfn: H1-INFERENCE_76-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000154
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_76-0-10.hdf
+  - --output-file
+  - H1-PLOT_76-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_76-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_76-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000155
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_77.ini
+  - --output-file
+  - H1-INFERENCE_77-0-10.hdf
+  uses:
+  - lfn: inj_77.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_77-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000156
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_77-0-10.hdf
+  - --output-file
+  - H1-PLOT_77-0-10.png
+  uses:
+  - lfn: H1-PLOT_77-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_77-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000157
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_78.ini
+  - --output-file
+  - H1-INFERENCE_78-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_78-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_78.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000158
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_78-0-10.hdf
+  - --output-file
+  - H1-PLOT_78-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_78-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_78-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000159
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_79.ini
+  - --output-file
+  - H1-INFERENCE_79-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_79-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_79.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000160
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_79-0-10.hdf
+  - --output-file
+  - H1-PLOT_79-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_79-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_79-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000161
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_80.ini
+  - --output-file
+  - H1-INFERENCE_80-0-10.hdf
+  uses:
+  - lfn: inj_80.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_80-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000162
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_80-0-10.hdf
+  - --output-file
+  - H1-PLOT_80-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_80-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_80-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000163
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_81.ini
+  - --output-file
+  - H1-INFERENCE_81-0-10.hdf
+  uses:
+  - lfn: inj_81.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_81-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000164
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_81-0-10.hdf
+  - --output-file
+  - H1-PLOT_81-0-10.png
+  uses:
+  - lfn: H1-PLOT_81-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_81-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000165
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_82.ini
+  - --output-file
+  - H1-INFERENCE_82-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_82-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_82.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000166
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_82-0-10.hdf
+  - --output-file
+  - H1-PLOT_82-0-10.png
+  uses:
+  - lfn: H1-PLOT_82-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_82-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000167
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_83.ini
+  - --output-file
+  - H1-INFERENCE_83-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_83-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_83.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000168
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_83-0-10.hdf
+  - --output-file
+  - H1-PLOT_83-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_83-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_83-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000169
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_84.ini
+  - --output-file
+  - H1-INFERENCE_84-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_84-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_84.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000170
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_84-0-10.hdf
+  - --output-file
+  - H1-PLOT_84-0-10.png
+  uses:
+  - lfn: H1-PLOT_84-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_84-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000171
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_85.ini
+  - --output-file
+  - H1-INFERENCE_85-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_85-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_85.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000172
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_85-0-10.hdf
+  - --output-file
+  - H1-PLOT_85-0-10.png
+  uses:
+  - lfn: H1-PLOT_85-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_85-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000173
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_86.ini
+  - --output-file
+  - H1-INFERENCE_86-0-10.hdf
+  uses:
+  - lfn: inj_86.ini
+    type: input
+  - lfn: H1-INFERENCE_86-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000174
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_86-0-10.hdf
+  - --output-file
+  - H1-PLOT_86-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_86-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_86-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000175
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_87.ini
+  - --output-file
+  - H1-INFERENCE_87-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_87-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_87.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000176
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_87-0-10.hdf
+  - --output-file
+  - H1-PLOT_87-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_87-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_87-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000177
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_88.ini
+  - --output-file
+  - H1-INFERENCE_88-0-10.hdf
+  uses:
+  - lfn: inj_88.ini
+    type: input
+  - lfn: H1-INFERENCE_88-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000178
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_88-0-10.hdf
+  - --output-file
+  - H1-PLOT_88-0-10.png
+  uses:
+  - lfn: H1-PLOT_88-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_88-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000179
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_89.ini
+  - --output-file
+  - H1-INFERENCE_89-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_89-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_89.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000180
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_89-0-10.hdf
+  - --output-file
+  - H1-PLOT_89-0-10.png
+  uses:
+  - lfn: H1-PLOT_89-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_89-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000181
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_90.ini
+  - --output-file
+  - H1-INFERENCE_90-0-10.hdf
+  uses:
+  - lfn: inj_90.ini
+    type: input
+  - lfn: H1-INFERENCE_90-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000182
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_90-0-10.hdf
+  - --output-file
+  - H1-PLOT_90-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_90-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_90-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000183
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_91.ini
+  - --output-file
+  - H1-INFERENCE_91-0-10.hdf
+  uses:
+  - lfn: inj_91.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_91-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000184
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_91-0-10.hdf
+  - --output-file
+  - H1-PLOT_91-0-10.png
+  uses:
+  - lfn: H1-PLOT_91-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_91-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000185
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_92.ini
+  - --output-file
+  - H1-INFERENCE_92-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_92-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_92.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000186
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_92-0-10.hdf
+  - --output-file
+  - H1-PLOT_92-0-10.png
+  uses:
+  - lfn: H1-PLOT_92-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_92-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000187
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_93.ini
+  - --output-file
+  - H1-INFERENCE_93-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_93-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: inj_93.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000188
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_93-0-10.hdf
+  - --output-file
+  - H1-PLOT_93-0-10.png
+  uses:
+  - lfn: H1-PLOT_93-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: H1-INFERENCE_93-0-10.hdf
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000189
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_94.ini
+  - --output-file
+  - H1-INFERENCE_94-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_94-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_94.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000190
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_94-0-10.hdf
+  - --output-file
+  - H1-PLOT_94-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_94-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_94-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000191
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_95.ini
+  - --output-file
+  - H1-INFERENCE_95-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_95-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_95.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000192
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_95-0-10.hdf
+  - --output-file
+  - H1-PLOT_95-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_95-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_95-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000193
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_96.ini
+  - --output-file
+  - H1-INFERENCE_96-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_96-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_96.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000194
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_96-0-10.hdf
+  - --output-file
+  - H1-PLOT_96-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_96-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_96-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000195
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_97.ini
+  - --output-file
+  - H1-INFERENCE_97-0-10.hdf
+  uses:
+  - lfn: inj_97.ini
+    type: input
+  - lfn: prior.ini
+    type: input
+  - lfn: H1-INFERENCE_97-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000196
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_97-0-10.hdf
+  - --output-file
+  - H1-PLOT_97-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_97-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_97-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000197
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_98.ini
+  - --output-file
+  - H1-INFERENCE_98-0-10.hdf
+  uses:
+  - lfn: inj_98.ini
+    type: input
+  - lfn: H1-INFERENCE_98-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000198
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_98-0-10.hdf
+  - --output-file
+  - H1-PLOT_98-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_98-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_98-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+- type: job
+  name: inference_ID0
+  id: ID0000199
+  arguments:
+  - --nprocesses
+  - '1'
+  - --force
+  - ''
+  - --seed
+  - '0'
+  - --config-file
+  - prior.ini
+  - inj_99.ini
+  - --output-file
+  - H1-INFERENCE_99-0-10.hdf
+  uses:
+  - lfn: H1-INFERENCE_99-0-10.hdf
+    type: output
+    stageOut: true
+    registerReplica: true
+  - lfn: prior.ini
+    type: input
+  - lfn: inj_99.ini
+    type: input
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: inference
+- type: job
+  name: plot_ID1
+  id: ID0000200
+  arguments:
+  - --z-arg
+  - snr
+  - --plot-injection-parameters
+  - ''
+  - --pick-injection-by-time
+  - ''
+  - --input-file
+  - H1-INFERENCE_99-0-10.hdf
+  - --output-file
+  - H1-PLOT_99-0-10.png
+  uses:
+  - lfn: H1-INFERENCE_99-0-10.hdf
+    type: input
+  - lfn: H1-PLOT_99-0-10.png
+    type: output
+    stageOut: true
+    registerReplica: true
+  profiles:
+    selector:
+      execution_site: condorpool_symlink
+    dagman:
+      category: plot
+jobDependencies:
+- id: ID0000001
+  children:
+  - ID0000002
+- id: ID0000003
+  children:
+  - ID0000004
+- id: ID0000005
+  children:
+  - ID0000006
+- id: ID0000007
+  children:
+  - ID0000008
+- id: ID0000009
+  children:
+  - ID0000010
+- id: ID0000011
+  children:
+  - ID0000012
+- id: ID0000013
+  children:
+  - ID0000014
+- id: ID0000015
+  children:
+  - ID0000016
+- id: ID0000017
+  children:
+  - ID0000018
+- id: ID0000019
+  children:
+  - ID0000020
+- id: ID0000021
+  children:
+  - ID0000022
+- id: ID0000023
+  children:
+  - ID0000024
+- id: ID0000025
+  children:
+  - ID0000026
+- id: ID0000027
+  children:
+  - ID0000028
+- id: ID0000029
+  children:
+  - ID0000030
+- id: ID0000031
+  children:
+  - ID0000032
+- id: ID0000033
+  children:
+  - ID0000034
+- id: ID0000035
+  children:
+  - ID0000036
+- id: ID0000037
+  children:
+  - ID0000038
+- id: ID0000039
+  children:
+  - ID0000040
+- id: ID0000041
+  children:
+  - ID0000042
+- id: ID0000043
+  children:
+  - ID0000044
+- id: ID0000045
+  children:
+  - ID0000046
+- id: ID0000047
+  children:
+  - ID0000048
+- id: ID0000049
+  children:
+  - ID0000050
+- id: ID0000051
+  children:
+  - ID0000052
+- id: ID0000053
+  children:
+  - ID0000054
+- id: ID0000055
+  children:
+  - ID0000056
+- id: ID0000057
+  children:
+  - ID0000058
+- id: ID0000059
+  children:
+  - ID0000060
+- id: ID0000061
+  children:
+  - ID0000062
+- id: ID0000063
+  children:
+  - ID0000064
+- id: ID0000065
+  children:
+  - ID0000066
+- id: ID0000067
+  children:
+  - ID0000068
+- id: ID0000069
+  children:
+  - ID0000070
+- id: ID0000071
+  children:
+  - ID0000072
+- id: ID0000073
+  children:
+  - ID0000074
+- id: ID0000075
+  children:
+  - ID0000076
+- id: ID0000077
+  children:
+  - ID0000078
+- id: ID0000079
+  children:
+  - ID0000080
+- id: ID0000081
+  children:
+  - ID0000082
+- id: ID0000083
+  children:
+  - ID0000084
+- id: ID0000085
+  children:
+  - ID0000086
+- id: ID0000087
+  children:
+  - ID0000088
+- id: ID0000089
+  children:
+  - ID0000090
+- id: ID0000091
+  children:
+  - ID0000092
+- id: ID0000093
+  children:
+  - ID0000094
+- id: ID0000095
+  children:
+  - ID0000096
+- id: ID0000097
+  children:
+  - ID0000098
+- id: ID0000099
+  children:
+  - ID0000100
+- id: ID0000101
+  children:
+  - ID0000102
+- id: ID0000103
+  children:
+  - ID0000104
+- id: ID0000105
+  children:
+  - ID0000106
+- id: ID0000107
+  children:
+  - ID0000108
+- id: ID0000109
+  children:
+  - ID0000110
+- id: ID0000111
+  children:
+  - ID0000112
+- id: ID0000113
+  children:
+  - ID0000114
+- id: ID0000115
+  children:
+  - ID0000116
+- id: ID0000117
+  children:
+  - ID0000118
+- id: ID0000119
+  children:
+  - ID0000120
+- id: ID0000121
+  children:
+  - ID0000122
+- id: ID0000123
+  children:
+  - ID0000124
+- id: ID0000125
+  children:
+  - ID0000126
+- id: ID0000127
+  children:
+  - ID0000128
+- id: ID0000129
+  children:
+  - ID0000130
+- id: ID0000131
+  children:
+  - ID0000132
+- id: ID0000133
+  children:
+  - ID0000134
+- id: ID0000135
+  children:
+  - ID0000136
+- id: ID0000137
+  children:
+  - ID0000138
+- id: ID0000139
+  children:
+  - ID0000140
+- id: ID0000141
+  children:
+  - ID0000142
+- id: ID0000143
+  children:
+  - ID0000144
+- id: ID0000145
+  children:
+  - ID0000146
+- id: ID0000147
+  children:
+  - ID0000148
+- id: ID0000149
+  children:
+  - ID0000150
+- id: ID0000151
+  children:
+  - ID0000152
+- id: ID0000153
+  children:
+  - ID0000154
+- id: ID0000155
+  children:
+  - ID0000156
+- id: ID0000157
+  children:
+  - ID0000158
+- id: ID0000159
+  children:
+  - ID0000160
+- id: ID0000161
+  children:
+  - ID0000162
+- id: ID0000163
+  children:
+  - ID0000164
+- id: ID0000165
+  children:
+  - ID0000166
+- id: ID0000167
+  children:
+  - ID0000168
+- id: ID0000169
+  children:
+  - ID0000170
+- id: ID0000171
+  children:
+  - ID0000172
+- id: ID0000173
+  children:
+  - ID0000174
+- id: ID0000175
+  children:
+  - ID0000176
+- id: ID0000177
+  children:
+  - ID0000178
+- id: ID0000179
+  children:
+  - ID0000180
+- id: ID0000181
+  children:
+  - ID0000182
+- id: ID0000183
+  children:
+  - ID0000184
+- id: ID0000185
+  children:
+  - ID0000186
+- id: ID0000187
+  children:
+  - ID0000188
+- id: ID0000189
+  children:
+  - ID0000190
+- id: ID0000191
+  children:
+  - ID0000192
+- id: ID0000193
+  children:
+  - ID0000194
+- id: ID0000195
+  children:
+  - ID0000196
+- id: ID0000197
+  children:
+  - ID0000198
+- id: ID0000199
+  children:
+  - ID0000200

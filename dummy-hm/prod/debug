@@ -1,0 +1,1 @@
+pegasus-analyzer -r -v /local/user/shashwat.singh/pycbc-tmp.aAGLI08E77/work $@

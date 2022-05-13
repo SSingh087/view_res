@@ -1,0 +1,1 @@
+/work/shashwat.singh/cbc-hm/bin/pycbc_submit_dax --no-grid --no-create-proxy --no-query-db

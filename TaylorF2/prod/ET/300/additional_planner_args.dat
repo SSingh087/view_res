@@ -1,0 +1,1 @@
+--output-sites local --sites condorpool_symlink,local --staging-site condorpool_symlink=local,local=local --cluster label,horizontal --cleanup inplace --relative-dir work -vvv --dax gw.dax
