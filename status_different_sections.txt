@@ -1,0 +1,4 @@
+(no matching jobs found in Condor Q)
+UNRDY READY   PRE  IN_Q  POST  DONE  FAIL %DONE STATE   DAGNAME                                 
+  488     0     0     0     0     0     1   0.0 Failure *gw.dax-0.dag                           
+Summary: 1 DAG total (Failure:1)

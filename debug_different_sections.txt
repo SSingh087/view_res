@@ -1,0 +1,35 @@
+Database version: '5.0.1' (sqlite:////local/user/shashwat.singh/pycbc-tmp.qVrLNHVubn/work/gw.dax-0.stampede.db)
+
+************************************Summary*************************************
+
+ Submit Directory   : /local/user/shashwat.singh/pycbc-tmp.qVrLNHVubn/work
+ Workflow Status    : failure
+ Total jobs         :    489 (100.00%)
+ # jobs succeeded   :      0 (0.00%)
+ # jobs failed      :      1 (0.20%)
+ # jobs held        :      0 (0.00%)
+ # jobs unsubmitted :    488 (99.80%)
+
+******************************Failed jobs' details******************************
+
+===========================create_dir_gw.dax_0_local============================
+
+ last state: POST_SCRIPT_FAILED
+       site: local
+submit file: ./create_dir_gw.dax_0_local.sub
+output file: create_dir_gw.dax_0_local.out
+ error file: create_dir_gw.dax_0_local.err
+
+-------------------------------Task #1 - Summary--------------------------------
+
+site        : local
+hostname    : -
+executable  : /software/tools/pegasus/5.0/bin/../bin/pegasus-kickstart
+arguments   :  -n pegasus::dirmanager -N null -i - -R local  -L gw.dax -T 2022-05-16T17:41:53+00:00 /software/tools/pegasus/5.0/bin/../bin/pegasus-transfer 
+exitcode    : -1
+working dir : /local/user/shashwat.singh/pycbc-tmp.qVrLNHVubn/work
+
+----------------Job stderr file - create_dir_gw.dax_0_local.err-----------------
+
+Job submission failed because of HTCondor event SUBMIT_FAILED
+
