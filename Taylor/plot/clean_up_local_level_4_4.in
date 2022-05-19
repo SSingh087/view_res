@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-PLOT_526-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 2,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-PLOT_872-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 3,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-PLOT_764-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 4,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-PLOT_650-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 5,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-PLOT_191-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 6,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-PLOT_293-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 7,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-PLOT_42-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 8,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-PLOT_665-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 9,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-PLOT_165-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 10,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-PLOT_930-0-10.png", "recursive": "False" } }
+]

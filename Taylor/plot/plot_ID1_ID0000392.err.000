@@ -1,0 +1,42 @@
+2022-05-16 19:27:42: PegasusLite: version 5.0.1
+2022-05-16 19:27:42: Executing on host a4317.atlas.local IP=172.23.43.17
+
+########################[Pegasus Lite] Setting up workdir ########################
+2022-05-16 19:27:42: Checking /local/condor/execute/dir_29910 for potential use as work space... 
+2022-05-16 19:27:42:   Workdir is /local/condor/execute/dir_29910/pegasus.OgzfLwb9X - 748G available
+2022-05-16 19:27:42: Changing cwd to /local/condor/execute/dir_29910/pegasus.OgzfLwb9X
+
+##############[Pegasus Lite] Figuring out the worker package to use ##############
+2022-05-16 19:27:42: The job contained a Pegasus worker package
+
+###################### Staging in input data and executables ######################
+2022-05-16 19:27:43,506    INFO:  Reading URL pairs from stdin
+2022-05-16 19:27:43,506    INFO:  1 transfers loaded
+2022-05-16 19:27:43,506    INFO:  PATH=/local/condor/execute/dir_29910/pegasus.OgzfLwb9X/pegasus-5.0.1-x86_64_deb_10/bin:/software/tools/pegasus/5.0/bin/:/work/shashwat.singh/cbc-hm/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/sbin
+2022-05-16 19:27:43,506    INFO:  LD_LIBRARY_PATH=
+2022-05-16 19:27:43,549    INFO:  --------------------------------------------------------------------------------
+2022-05-16 19:27:43,549    INFO:  Starting transfers - attempt 1
+2022-05-16 19:27:45,553    INFO:  ln -f -s '/work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-INFERENCE_962-0-10.hdf' '/local/condor/execute/dir_29910/pegasus.OgzfLwb9X/H1-INFERENCE_962-0-10.hdf'
+2022-05-16 19:27:45,601    INFO:  --------------------------------------------------------------------------------
+2022-05-16 19:27:45,601    INFO:  Stats: Total 1 transfers, 1.8 MB transferred in 2 seconds. Rate: 886.8 KB/s (6.9 Mb/s)
+2022-05-16 19:27:45,601    INFO:         Between sites local->condorpool_symlink : 1 transfers, 1.8 MB transferred in 2 seconds. Rate: 886.8 KB/s (6.9 Mb/s)
+2022-05-16 19:27:45,601    INFO:  All transfers completed successfully.
+
+##################### Checking file integrity for input files #####################
+
+######################[Pegasus Lite] Executing the user task ######################
+
+############################ Staging out output files ############################
+2022-05-16 19:28:02,630    INFO:  Reading URL pairs from stdin
+2022-05-16 19:28:02,630    INFO:  1 transfers loaded
+2022-05-16 19:28:02,630    INFO:  PATH=/local/condor/execute/dir_29910/pegasus.OgzfLwb9X/pegasus-5.0.1-x86_64_deb_10/bin:/software/tools/pegasus/5.0/bin/:/work/shashwat.singh/cbc-hm/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/sbin
+2022-05-16 19:28:02,630    INFO:  LD_LIBRARY_PATH=
+2022-05-16 19:28:02,643    INFO:  --------------------------------------------------------------------------------
+2022-05-16 19:28:02,643    INFO:  Starting transfers - attempt 1
+2022-05-16 19:28:04,649    INFO:  /bin/cp -f -R -L '/local/condor/execute/dir_29910/pegasus.OgzfLwb9X/H1-PLOT_962-0-10.png' '/work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-PLOT_962-0-10.png'
+2022-05-16 19:28:04,692    INFO:  --------------------------------------------------------------------------------
+2022-05-16 19:28:04,692    INFO:  Stats: Total 1 transfers, 1.5 MB transferred in 2 seconds. Rate: 729.5 KB/s (5.7 Mb/s)
+2022-05-16 19:28:04,692    INFO:         Between sites condorpool_symlink->local : 1 transfers, 1.5 MB transferred in 2 seconds. Rate: 729.5 KB/s (5.7 Mb/s)
+2022-05-16 19:28:04,692    INFO:  All transfers completed successfully.
+2022-05-16 19:28:05: /local/condor/execute/dir_29910/pegasus.OgzfLwb9X cleaned up
+PegasusLite: exitcode 0

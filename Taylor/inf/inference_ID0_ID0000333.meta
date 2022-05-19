@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "H1-INFERENCE_789-0-10.hdf",
+    "_type": "file",
+    "_attributes": {
+      "user": "shashwat.singh",
+      "size": "2742149",
+      "ctime": "2022-05-17T17:30:25+00:00",
+      "checksum.type": "sha256",
+      "checksum.value": "75b491ad10f74fa6209a9e6d85e4a9a8abe832d3a8f1fc367510ceb991efc16c",
+      "checksum.timing": "0.04"
+    }
+  }
+]

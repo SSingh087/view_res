@@ -1,0 +1,42 @@
+{
+  "client": "pegasus-plan",
+  "version": "5.0.1",
+  "wf_api": "python",
+  "type": "metrics",
+  "start_time": 1.652699715893E9,
+  "end_time": 1.65269972178E9,
+  "duration": 5.887,
+  "exitcode": 0,
+  "root_wf_uuid": "6452bf88-455a-43d4-aa29-06ad03e9c028",
+  "wf_uuid": "6452bf88-455a-43d4-aa29-06ad03e9c028",
+  "data_config": "condorio",
+  "planner_args": "--conf ./pegasus-properties.conf --dir /local/user/shashwat.singh/pycbc-tmp.kCiX4t67z5 --submit --forward nogrid --output-sites local --sites condorpool_symlink,local --staging-site condorpool_symlink\u003dlocal,local\u003dlocal --cluster label,horizontal --cleanup inplace --relative-dir work -vvv --dax gw.dax ",
+  "uses_pmc": false,
+  "wf_metrics": {
+    "compute_tasks": 406,
+    "dax_tasks": 0,
+    "dag_tasks": 0,
+    "total_tasks": 406,
+    "deleted_tasks": 0,
+    "dax_input_files": 204,
+    "dax_inter_files": 203,
+    "dax_output_files": 203,
+    "dax_total_files": 610,
+    "compute_jobs": 406,
+    "clustered_jobs": 0,
+    "si_tx_jobs": 0,
+    "so_tx_jobs": 42,
+    "inter_tx_jobs": 0,
+    "reg_jobs": 0,
+    "cleanup_jobs": 42,
+    "create_dir_jobs": 1,
+    "dax_jobs": 0,
+    "dag_jobs": 0,
+    "chmod_jobs": 0,
+    "total_jobs": 491
+  },
+  "app_metrics": {
+    "name": "ligo-pycbc"
+  }
+}
+

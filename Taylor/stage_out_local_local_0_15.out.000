@@ -1,0 +1,199 @@
+- invocation: True
+  version: 3.0
+  start: 2022-05-17T23:19:52.884+00:00
+  duration: 4.862
+  transformation: "pegasus::transfer"
+  derivation: "null"
+  resource: "local"
+  wf-label: "gw.dax"
+  wf-stamp: "2022-05-16T11:13:51+00:00"
+  interface: enp2s0f0
+  hostaddr: 130.75.116.20
+  hostname: condor5.atlas.aei.uni-hannover.de
+  pid: 3025152
+  uid: 5659
+  user: shashwat.singh
+  gid: 5000
+  group: atlas
+  umask: 0o0022
+  mainjob:
+    start: 2022-05-17T23:19:53.605+00:00
+    duration: 4.141
+    pid: 3025191
+    usage:
+      utime: 0.884
+      stime: 0.284
+      maxrss: 20084
+      minflt: 81326
+      majflt: 0
+      nswap: 0
+      inblock: 33448
+      outblock: 33616
+      msgsnd: 0
+      msgrcv: 0
+      nsignals: 0
+      nvcsw: 1612
+      nivcsw: 11
+    status:
+      raw: 0
+      regular_exitcode: 0
+    executable:
+      file_name: /software/tools/pegasus/5.0/bin/pegasus-transfer
+      mode: 0o100755
+      size: 2867
+      inode: 1176196
+      nlink: 1
+      blksize: 1048576
+      blocks: 9
+      mtime: 2021-10-07T18:53:08+00:00
+      atime: 2022-05-17T14:15:52+00:00
+      ctime: 2021-10-13T11:27:17+00:00
+      uid: 1000
+      gid: 1000
+    argument_vector:
+      - "--threads"
+      - "2"
+    procs:
+  jobids:
+    condor: 8506608.0
+  cwd: /local/condor/spool/local_univ_execute/dir_3024866
+  usage:
+    utime: 0.274
+    stime: 0.441
+    maxrss: 2172
+    minflt: 166
+    majflt: 0
+    nswap: 0
+    inblock: 0
+    outblock: 0
+    msgsnd: 0
+    msgrcv: 0
+    nsignals: 0
+    nvcsw: 5
+    nivcsw: 41
+  machine:
+    page-size: 4096
+    uname_system: linux
+    uname_nodename: condor5
+    uname_release: 4.19.0-16-amd64
+    uname_machine: x86_64
+    ram_total: 527981224
+    ram_free: 40398784
+    ram_shared: 32773500
+    ram_buffer: 0
+    swap_total: 0
+    swap_free: 0
+    cpu_count: 32
+    cpu_speed: 2095
+    cpu_vendor: GenuineIntel
+    cpu_model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+    load_min1: 3.02
+    load_min5: 2.67
+    load_min15: 2.55
+    procs_total: 14367
+    procs_running: 1
+    procs_sleeping: 14178
+    procs_other: 186
+    procs_vmsize: 503479388
+    procs_rss: 347383204
+    task_total: 14480
+    task_running: 1
+    task_sleeping: 14293
+    task_other: 186
+  files:
+    stdin:
+      descriptor_number: 0
+      mode: 0o10600
+      size: 0
+      inode: 1619696847
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2022-05-17T23:19:52+00:00
+      atime: 2022-05-17T23:19:52+00:00
+      ctime: 2022-05-17T23:19:52+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+    stdout:
+      temporary_name: /local/condor/spool/local_univ_execute/dir_3024866/ks.out.90uexm
+      descriptor: 3
+      mode: 0o100600
+      size: 5308
+      inode: 405342137
+      nlink: 1
+      blksize: 4096
+      blocks: 16
+      mtime: 2022-05-17T23:19:57+00:00
+      atime: 2022-05-17T23:19:53+00:00
+      ctime: 2022-05-17T23:19:57+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+      data_truncated: false
+      data: |
+        2022-05-17 23:19:53,715    INFO:  Reading URL pairs from stdin
+        2022-05-17 23:19:53,716    INFO:  9 transfers loaded
+        2022-05-17 23:19:53,717    INFO:  PATH=/software/tools/pegasus/5.0/bin:/software/tools/pegasus/5.0/bin/:/work/shashwat.singh/cbc-hm/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/usr/sbin
+        2022-05-17 23:19:53,717    INFO:  LD_LIBRARY_PATH=
+        2022-05-17 23:19:53,730    INFO:  --------------------------------------------------------------------------------
+        2022-05-17 23:19:53,730    INFO:  Starting transfers - attempt 1
+        2022-05-17 23:19:55,788    INFO:  /bin/cp -f -R -L '/work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-INFERENCE_117-0-10.hdf' '/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_117-0-10.hdf'
+        2022-05-17 23:19:55,855    INFO:  /bin/cp -f -R -L '/work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-INFERENCE_246-0-10.hdf' '/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_246-0-10.hdf'
+        2022-05-17 23:19:55,930    INFO:  /bin/cp -f -R -L '/work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-INFERENCE_286-0-10.hdf' '/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_286-0-10.hdf'
+        2022-05-17 23:19:55,943    INFO:  /bin/cp -f -R -L '/work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-INFERENCE_308-0-10.hdf' '/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_308-0-10.hdf'
+        2022-05-17 23:19:56,029    INFO:  /bin/cp -f -R -L '/work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-INFERENCE_317-0-10.hdf' '/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_317-0-10.hdf'
+        2022-05-17 23:19:56,041    INFO:  Tool found: pegasus-integrity   Version: N/A   Path: /software/tools/pegasus/5.0/bin/pegasus-integrity
+        2022-05-17 23:19:56,041    INFO:  /software/tools/pegasus/5.0/bin/pegasus-integrity --verify="H1-INFERENCE_117-0-10.hdf=/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_117-0-10.hdf"
+        2022-05-17 23:19:56,154    INFO:  /software/tools/pegasus/5.0/bin/pegasus-integrity --verify="H1-INFERENCE_246-0-10.hdf=/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_246-0-10.hdf"
+        2022-05-17 23:19:56,263    INFO:  /software/tools/pegasus/5.0/bin/pegasus-integrity --verify="H1-INFERENCE_286-0-10.hdf=/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_286-0-10.hdf"
+        2022-05-17 23:19:56,370    INFO:  /software/tools/pegasus/5.0/bin/pegasus-integrity --verify="H1-INFERENCE_308-0-10.hdf=/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_308-0-10.hdf"
+        2022-05-17 23:19:56,482    INFO:  /software/tools/pegasus/5.0/bin/pegasus-integrity --verify="H1-INFERENCE_317-0-10.hdf=/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_317-0-10.hdf"
+        2022-05-17 23:19:56,637    INFO:  /bin/cp -f -R -L '/work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-INFERENCE_444-0-10.hdf' '/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_444-0-10.hdf'
+        2022-05-17 23:19:56,699    INFO:  /bin/cp -f -R -L '/work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-INFERENCE_493-0-10.hdf' '/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_493-0-10.hdf'
+        2022-05-17 23:19:56,767    INFO:  /bin/cp -f -R -L '/work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-INFERENCE_871-0-10.hdf' '/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_871-0-10.hdf'
+        2022-05-17 23:19:56,845    INFO:  /bin/cp -f -R -L '/work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-INFERENCE_354-0-10.hdf' '/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_354-0-10.hdf'
+        2022-05-17 23:19:56,856    INFO:  /software/tools/pegasus/5.0/bin/pegasus-integrity --verify="H1-INFERENCE_444-0-10.hdf=/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_444-0-10.hdf"
+        2022-05-17 23:19:56,963    INFO:  /software/tools/pegasus/5.0/bin/pegasus-integrity --verify="H1-INFERENCE_493-0-10.hdf=/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_493-0-10.hdf"
+        2022-05-17 23:19:57,068    INFO:  /software/tools/pegasus/5.0/bin/pegasus-integrity --verify="H1-INFERENCE_871-0-10.hdf=/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_871-0-10.hdf"
+        2022-05-17 23:19:57,176    INFO:  /software/tools/pegasus/5.0/bin/pegasus-integrity --verify="H1-INFERENCE_354-0-10.hdf=/work/shashwat.singh/3gsky/TaylorF2/prod/inference/H1-INFERENCE_354-0-10.hdf"
+        2022-05-17 23:19:57,735    INFO:  --------------------------------------------------------------------------------
+        2022-05-17 23:19:57,735    INFO:  @@@MONITORING_PAYLOAD - START@@@{"ts": 1652829597, "monitoring_event": "int.metric", "payload": [{"event": "check", "file_type": "output", "succeeded": 9, "failed": 0, "duration": "0.978"}]}@@@MONITORING_PAYLOAD - END@@@
+        2022-05-17 23:19:57,735    INFO:  Stats: Total 9 transfers, 16.3 MB transferred in 4 seconds. Rate: 4.1 MB/s (32.5 Mb/s)
+        2022-05-17 23:19:57,735    INFO:         Between sites local->local : 9 transfers, 16.3 MB transferred in 4 seconds. Rate: 4.1 MB/s (32.5 Mb/s)
+        2022-05-17 23:19:57,736    INFO:  All transfers completed successfully.
+        
+    stderr:
+      temporary_name: /local/condor/spool/local_univ_execute/dir_3024866/ks.err.1qS34Q
+      descriptor: 4
+      mode: 0o100600
+      size: 0
+      inode: 405342138
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2022-05-17T23:19:53+00:00
+      atime: 2022-05-17T23:19:53+00:00
+      ctime: 2022-05-17T23:19:53+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+    metadata:
+      temporary_name: /local/condor/spool/local_univ_execute/dir_3024866/ks.meta.79NiDl
+      descriptor: 5
+      mode: 0o100600
+      size: 0
+      inode: 405342140
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2022-05-17T23:19:53+00:00
+      atime: 2022-05-17T23:19:53+00:00
+      ctime: 2022-05-17T23:19:53+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas

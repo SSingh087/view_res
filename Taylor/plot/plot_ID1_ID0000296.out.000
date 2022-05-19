@@ -1,0 +1,224 @@
+- invocation: True
+  version: 3.0
+  start: 2022-05-16T21:16:10.962+00:00
+  duration: 27.117
+  transformation: "plot_ID1"
+  derivation: "ID0000296"
+  resource: "condorpool_symlink"
+  wf-label: "gw.dax"
+  wf-stamp: "2022-05-16T11:13:51+00:00"
+  interface: enp2s0
+  hostaddr: 172.23.97.6
+  hostname: mga9706.atlas.local
+  pid: 23524
+  uid: 5659
+  user: shashwat.singh
+  gid: 5000
+  group: atlas
+  umask: 0o0022
+  mainjob:
+    start: 2022-05-16T21:16:11.000+00:00
+    duration: 27.079
+    pid: 23525
+    usage:
+      utime: 14.533
+      stime: 0.759
+      maxrss: 316684
+      minflt: 82838
+      majflt: 174
+      nswap: 0
+      inblock: 446296
+      outblock: 7456
+      msgsnd: 0
+      msgrcv: 0
+      nsignals: 0
+      nvcsw: 8062
+      nivcsw: 1283
+    status:
+      raw: 0
+      regular_exitcode: 0
+    executable:
+      file_name: /work/shashwat.singh/cbc-hm/bin/pycbc_inference_plot_posterior
+      mode: 0o100755
+      size: 13510
+      inode: 43433
+      nlink: 1
+      blksize: 1048576
+      blocks: 22
+      mtime: 2022-05-03T18:46:19+00:00
+      atime: 2022-05-16T06:13:53+00:00
+      ctime: 2022-05-03T18:46:19+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+    argument_vector:
+      - "--z-arg"
+      - "snr"
+      - "--plot-injection-parameters"
+      - "--pick-injection-by-time"
+      - "--input-file"
+      - "H1-INFERENCE_693-0-10.hdf"
+      - "--output-file"
+      - "H1-PLOT_693-0-10.png"
+    procs:
+  jobids:
+    condor: 8471875.0
+  cwd: /local/condor/execute/dir_23359/pegasus.pT6kkfZ0n
+  usage:
+    utime: 0.008
+    stime: 0.016
+    maxrss: 2220
+    minflt: 138
+    majflt: 0
+    nswap: 0
+    inblock: 32
+    outblock: 0
+    msgsnd: 0
+    msgrcv: 0
+    nsignals: 0
+    nvcsw: 5
+    nivcsw: 5
+  machine:
+    page-size: 4096
+    uname_system: linux
+    uname_nodename: a9706
+    uname_release: 4.19.0-18-amd64
+    uname_machine: x86_64
+    ram_total: 16387584
+    ram_free: 8654792
+    ram_shared: 181540
+    ram_buffer: 0
+    swap_total: 0
+    swap_free: 0
+    cpu_count: 8
+    cpu_speed: 3396
+    cpu_vendor: GenuineIntel
+    cpu_model: Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz
+    load_min1: 9.11
+    load_min5: 9.90
+    load_min15: 9.98
+    procs_total: 492
+    procs_running: 10
+    procs_sleeping: 384
+    procs_other: 98
+    procs_vmsize: 50750652
+    procs_rss: 6817164
+    task_total: 591
+    task_running: 10
+    task_sleeping: 483
+    task_other: 98
+  files:
+    H1-PLOT_693-0-10.png:
+      lfn: "H1-PLOT_693-0-10.png"
+      file_name: /local/condor/execute/dir_23359/pegasus.pT6kkfZ0n/H1-PLOT_693-0-10.png
+      mode: 0o100644
+      size: 1891161
+      inode: 24162
+      nlink: 1
+      blksize: 4096
+      blocks: 3696
+      mtime: 2022-05-16T21:16:37+00:00
+      atime: 2022-05-16T21:16:36+00:00
+      ctime: 2022-05-16T21:16:37+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+      output: True
+      sha256: 7c82ebd7cb43fb6e17bf9e663041ed801b662d8c479a07f7141036656c3c46fe
+      checksum_timing: 0.02
+    stdin:
+      file_name: /dev/null
+      mode: 0o20666
+      size: 0
+      inode: 1028
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2022-02-10T20:00:18+00:00
+      atime: 2022-02-10T20:00:18+00:00
+      ctime: 2022-02-10T20:00:18+00:00
+      uid: 0
+      user: root
+      gid: 0
+      group: root
+    stdout:
+      temporary_name: /local/condor/execute/dir_23359/ks.out.WFCPb4
+      descriptor: 3
+      mode: 0o100600
+      size: 0
+      inode: 1610785603
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2022-05-16T21:16:10+00:00
+      atime: 2022-05-16T21:16:10+00:00
+      ctime: 2022-05-16T21:16:10+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+    stderr:
+      temporary_name: /local/condor/execute/dir_23359/ks.err.ylVcLN
+      descriptor: 4
+      mode: 0o100600
+      size: 340
+      inode: 1622571662
+      nlink: 1
+      blksize: 4096
+      blocks: 8
+      mtime: 2022-05-16T21:16:26+00:00
+      atime: 2022-05-16T21:16:10+00:00
+      ctime: 2022-05-16T21:16:26+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+      data_truncated: false
+      data: |
+        /work/shashwat.singh/cbc-hm/bin/pycbc_inference_plot_posterior:221: DeprecationWarning: The 'warn' function is deprecated, use 'warning' instead
+          logging.warn("Could not find injection parameter {}".format(p))
+        2022-05-16 21:16:26,351 Could not find injection parameter q
+        2022-05-16 21:16:26,351 Could not find injection parameter delta_tc
+        
+    metadata:
+      temporary_name: /local/condor/execute/dir_23359/ks.meta.4vLAkx
+      descriptor: 5
+      mode: 0o100600
+      size: 0
+      inode: 1622571663
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2022-05-16T21:16:10+00:00
+      atime: 2022-05-16T21:16:10+00:00
+      ctime: 2022-05-16T21:16:10+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+
+---------------pegasus-multipart
+- transfer_attempts:
+  - src_url: "file:///work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-INFERENCE_693-0-10.hdf"
+    src_label: "local"
+    dst_url: "symlink:///local/condor/execute/dir_23359/pegasus.pT6kkfZ0n/H1-INFERENCE_693-0-10.hdf"
+    dst_label: "condorpool_symlink"
+    success: True
+    start: 1652735771
+    duration: 0.1
+    lfn: "H1-INFERENCE_693-0-10.hdf"
+    bytes: 1359103
+
+---------------pegasus-multipart
+- transfer_attempts:
+  - src_url: "file:///local/condor/execute/dir_23359/pegasus.pT6kkfZ0n/H1-PLOT_693-0-10.png"
+    src_label: "condorpool_symlink"
+    dst_url: "file:///work/shashwat.singh/3gsky/TaylorF2/prod/output/local-site-scratch/work/./H1-PLOT_693-0-10.png"
+    dst_label: "local"
+    success: True
+    start: 1652735800
+    duration: 0.1
+    lfn: "H1-PLOT_693-0-10.png"
+    bytes: 1891161
