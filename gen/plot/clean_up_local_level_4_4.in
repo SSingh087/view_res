@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_357-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 2,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_188-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 3,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_370-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 4,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_795-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 5,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_635-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 6,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_898-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 7,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_751-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 8,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_449-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 9,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_14-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 10,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_279-0-10.png", "recursive": "False" } }
+]

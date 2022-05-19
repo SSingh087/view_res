@@ -1,0 +1,366 @@
+- invocation: True
+  version: 3.0
+  start: 2022-05-18T23:59:13.105+00:00
+  duration: 66.515
+  transformation: "inference_ID0"
+  derivation: "ID0000107"
+  resource: "condorpool_symlink"
+  wf-label: "gw.dax"
+  wf-stamp: "2022-05-18T12:41:59+00:00"
+  interface: eno1
+  hostaddr: 172.23.43.6
+  hostname: mga4306.atlas.local
+  pid: 122776
+  uid: 5659
+  user: shashwat.singh
+  gid: 5000
+  group: atlas
+  umask: 0o0022
+  mainjob:
+    start: 2022-05-18T23:59:13.342+00:00
+    duration: 66.278
+    pid: 122777
+    usage:
+      utime: 50.450
+      stime: 6.451
+      maxrss: 7618916
+      minflt: 1448237
+      majflt: 2
+      nswap: 0
+      inblock: 152
+      outblock: 72
+      msgsnd: 0
+      msgrcv: 0
+      nsignals: 0
+      nvcsw: 5654
+      nivcsw: 6440
+    status:
+      raw: 6
+      signalled_signal: 6
+      singalled_name: "Aborted"
+      corefile: false
+    executable:
+      file_name: /work/shashwat.singh/cbc-hm/bin/pycbc_inference
+      mode: 0o100755
+      size: 6429
+      inode: 43318
+      nlink: 1
+      blksize: 1048576
+      blocks: 12
+      mtime: 2022-05-03T18:46:19+00:00
+      atime: 2022-05-18T23:07:01+00:00
+      ctime: 2022-05-03T18:46:19+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+    argument_vector:
+      - "--nprocesses"
+      - "1"
+      - "--force"
+      - "--seed"
+      - "0"
+      - "--config-file"
+      - "prior.ini"
+      - "inj_245.ini"
+      - "--output-file"
+      - "H1-INFERENCE_245-0-10.hdf"
+    procs:
+  jobids:
+    condor: 8538177.0
+  cwd: /local/condor/execute/dir_122614/pegasus.kelWzwgQc
+  usage:
+    utime: 0.068
+    stime: 0.168
+    maxrss: 2260
+    minflt: 139
+    majflt: 0
+    nswap: 0
+    inblock: 0
+    outblock: 0
+    msgsnd: 0
+    msgrcv: 0
+    nsignals: 0
+    nvcsw: 4
+    nivcsw: 30
+  machine:
+    page-size: 4096
+    uname_system: linux
+    uname_nodename: a4306
+    uname_release: 4.19.0-17-amd64
+    uname_machine: x86_64
+    ram_total: 528229056
+    ram_free: 41752132
+    ram_shared: 3418484
+    ram_buffer: 0
+    swap_total: 0
+    swap_free: 0
+    cpu_count: 128
+    cpu_speed: 2350
+    cpu_vendor: AuthenticAMD
+    cpu_model: AMD EPYC 7452 32-Core Processor
+    load_min1: 132.75
+    load_min5: 135.04
+    load_min15: 138.41
+    procs_total: 1773
+    procs_running: 97
+    procs_sleeping: 1029
+    procs_other: 647
+    procs_vmsize: 3349321084
+    procs_rss: 318124932
+    task_total: 9266
+    task_running: 132
+    task_sleeping: 8487
+    task_other: 647
+  files:
+    H1-INFERENCE_245-0-10.hdf:
+      error: 2
+      lfn: "H1-INFERENCE_245-0-10.hdf"
+      file_name: H1-INFERENCE_245-0-10.hdf
+    stdin:
+      file_name: /dev/null
+      mode: 0o20666
+      size: 0
+      inode: 1028
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2021-09-03T07:16:11+00:00
+      atime: 2021-09-03T07:16:11+00:00
+      ctime: 2021-09-03T07:16:11+00:00
+      uid: 0
+      user: root
+      gid: 0
+      group: root
+    stdout:
+      temporary_name: /local/condor/execute/dir_122614/ks.out.f1f3gJ
+      descriptor: 3
+      mode: 0o100600
+      size: 0
+      inode: 2214799066
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2022-05-18T23:59:13+00:00
+      atime: 2022-05-18T23:59:13+00:00
+      ctime: 2022-05-18T23:59:13+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+    stderr:
+      temporary_name: /local/condor/execute/dir_122614/ks.err.y4qulT
+      descriptor: 4
+      mode: 0o100600
+      size: 107
+      inode: 2214799069
+      nlink: 1
+      blksize: 4096
+      blocks: 8
+      mtime: 2022-05-19T00:00:19+00:00
+      atime: 2022-05-18T23:59:13+00:00
+      ctime: 2022-05-19T00:00:19+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+      data_truncated: false
+      data: |
+        2022-05-18 23:59:23,711 No sampling_params section read from config file
+        malloc(): invalid size (unsorted)
+        
+    metadata:
+      temporary_name: /local/condor/execute/dir_122614/ks.meta.4pcVp3
+      descriptor: 5
+      mode: 0o100600
+      size: 0
+      inode: 2214799070
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2022-05-18T23:59:13+00:00
+      atime: 2022-05-18T23:59:13+00:00
+      ctime: 2022-05-18T23:59:13+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+    kickstart:
+      error: 2
+      note: ignore error - it is just a warning
+      file_name: pegasus-kickstart
+    logfile:
+      descriptor_number: 1
+      mode: 0o100644
+      size: 4096
+      inode: 2214799053
+      nlink: 1
+      blksize: 4096
+      blocks: 8
+      mtime: 2022-05-19T00:00:19+00:00
+      atime: 2022-05-18T23:59:09+00:00
+      ctime: 2022-05-19T00:00:19+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+  environment:
+    "BASH_ENV": "/usr/share/modules/init/bash"
+    "BASH_FUNC_module%%": "() {  unset _mlshdbg;\n if [ \"${MODULES_SILENT_SHELL_DEBUG:-0}\" = '1' ]; then\n case \"$-\" in \n *v*x*)\n set +vx;\n _mlshdbg='vx'\n ;;\n *v*)\n set +v;\n _mlshdbg='v'\n ;;\n *x*)\n set +x;\n _mlshdbg='x'\n ;;\n *)\n _mlshdbg=''\n ;;\n esac;\n fi;\n unset _mlre _mlIFS;\n if [ -n \"${IFS+x}\" ]; then\n _mlIFS=$IFS;\n fi;\n IFS=' ';\n for _mlv in ${MODULES_RUN_QUARANTINE:-};\n do\n if [ \"${_mlv}\" = \"${_mlv##*[!A-Za-z0-9_]}\" -a \"${_mlv}\" = \"${_mlv#[0-9]}\" ]; then\n if [ -n \"`eval 'echo ${'$_mlv'+x}'`\" ]; then\n _mlre=\"${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' \";\n fi;\n _mlrv=\"MODULES_RUNENV_${_mlv}\";\n _mlre=\"${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' \";\n fi;\n done;\n if [ -n \"${_mlre:-}\" ]; then\n eval `eval ${_mlre}/usr/bin/tclsh /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash '\"$@\"'`;\n else\n eval `/usr/bin/tclsh /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash \"$@\"`;\n fi;\n _mlstatus=$?;\n if [ -n \"${_mlIFS+x}\" ]; then\n IFS=$_mlIFS;\n else\n unset IFS;\n fi;\n unset _mlre _mlv _mlrv _mlIFS;\n if [ -n \"${_mlshdbg:-}\" ]; then\n set -$_mlshdbg;\n fi;\n unset _mlshdbg;\n return $_mlstatus\n}"
+    "BASH_FUNC_switchml%%": "() {  typeset swfound=1;\n if [ \"${MODULES_USE_COMPAT_VERSION:-0}\" = '1' ]; then\n typeset swname='main';\n if [ -e /usr/lib/x86_64-linux-gnu/modulecmd.tcl ]; then\n typeset swfound=0;\n unset MODULES_USE_COMPAT_VERSION;\n fi;\n else\n typeset swname='compatibility';\n if [ -e /usr/lib/x86_64-linux-gnu/modulecmd-compat ]; then\n typeset swfound=0;\n MODULES_USE_COMPAT_VERSION=1;\n export MODULES_USE_COMPAT_VERSION;\n fi;\n fi;\n if [ $swfound -eq 0 ]; then\n echo \"Switching to Modules $swname version\";\n source /usr/share/modules/init/bash;\n else\n echo \"Cannot switch to Modules $swname version, command not found\";\n return 1;\n fi\n}"
+    "BATCH_SYSTEM": "HTCondor"
+    "CONDOR_ID": "8528334.0"
+    "CONDOR_JOBID": "8538177.0"
+    "CONDOR_LOCATION": "/usr"
+    "CONDOR_PARENT_ID": "condor5:1954041:1652877755"
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/5659/bus"
+    "ENV": "/usr/share/modules/init/profile.sh"
+    "GW_DATAFIND_SERVER": ""
+    "HDF5_USE_FILE_LOCKING": "FALSE"
+    "HOME": "/work/shashwat.singh"
+    "JAVA_HOME": "/usr/lib/jvm/default-java"
+    "KICKSTART_INTEGRITY_DATA": "/local/condor/execute/dir_122614/ks.integrity.fETmud"
+    "KICKSTART_METADATA": "/local/condor/execute/dir_122614/ks.meta.4pcVp3"
+    "LANG": "en_US.UTF-8"
+    "LC_ALL": "C"
+    "LIGO_DATAFIND_SERVER": "ldr.atlas.local:80"
+    "LM_LICENSE_FILE": "/opt/matlab/default/etc/license.dat"
+    "LOADEDMODULES": ""
+    "LOGNAME": "shashwat.singh"
+    "MAIL": "/var/mail/shashwat.singh"
+    "MODULEPATH": "/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles"
+    "MODULEPATH_modshare": "/etc/environment-modules/modules:1:/usr/share/modules/$MODULE_VERSION/modulefiles:1:/usr/share/modules/modulefiles:1:/usr/share/modules/versions:1"
+    "MODULESHOME": "/usr/share/modules"
+    "MODULES_CMD": "/usr/lib/x86_64-linux-gnu/modulecmd.tcl"
+    "OLDPWD": "/local/condor/execute/dir_122614"
+    "OMP_NUM_THREADS": "1"
+    "PATH": "/local/condor/execute/dir_122614/pegasus.kelWzwgQc/pegasus-5.0.1-x86_64_deb_10/bin:/software/tools/pegasus/5.0/bin/:/work/shashwat.singh/cbc-hm/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
+    "PEGASUS_DAG_JOB_ID": "inference_ID0_ID0000107"
+    "PEGASUS_MULTIPART_DIR": "/local/condor/execute/dir_122614/.pegasus.mulitpart.d"
+    "PEGASUS_SITE": "condorpool_symlink"
+    "PEGASUS_WF_LABEL": "gw.dax"
+    "PEGASUS_WF_UUID": "98116825-d0e2-4b3a-91ac-c13369080e44"
+    "PWD": "/local/condor/execute/dir_122614/pegasus.kelWzwgQc"
+    "SCRATCH": "/local/user/shashwat.singh"
+    "SHELL": "/bin/bash"
+    "SHLVL": "3"
+    "SSH_CLIENT": "194.94.98.189 59984 22"
+    "SSH_CONNECTION": "194.94.98.189 59984 130.75.116.20 22"
+    "SSH_TTY": "/dev/pts/0"
+    "TEMP": "/local/condor/execute/dir_122614"
+    "TERM": "xterm-256color"
+    "TMP": "/local/condor/execute/dir_122614"
+    "TMPDIR": "/local/condor/execute/dir_122614"
+    "TZ": ":/etc/localtime"
+    "USER": "shashwat.singh"
+    "VIRTUAL_ENV": "/work/shashwat.singh/cbc-hm"
+    "XDG_CONFIG_HOME": "/work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod"
+    "XDG_RUNTIME_DIR": "/run/user/5659"
+    "XDG_SESSION_CLASS": "user"
+    "XDG_SESSION_ID": "65055"
+    "XDG_SESSION_TYPE": "tty"
+    "_": "/local/condor/execute/dir_122614/pegasus.kelWzwgQc/pegasus-5.0.1-x86_64_deb_10/bin/pegasus-kickstart"
+    "_CHIRP_DELAYED_UPDATE_PREFIX": "Chirp*"
+    "_CONDOR_ANCESTOR_122614": "122618:1652918349:784685493"
+    "_CONDOR_ANCESTOR_2277": "2784:1630653397:2237504921"
+    "_CONDOR_ANCESTOR_2784": "122614:1652918349:4220131544"
+    "_CONDOR_ANCESTOR_30271": "30466:1623671958:3131617291"
+    "_CONDOR_ANCESTOR_30466": "1954033:1652877755:2609263846"
+    "_CONDOR_BIN": "/usr/bin"
+    "_CONDOR_CHIRP_CONFIG": "/local/condor/execute/dir_122614/.chirp.config"
+    "_CONDOR_DAGMAN_LOG": "/local/user/shashwat.singh/pycbc-tmp.cwxh3vQ1Uj/work/gw.dax-0.dag.dagman.out"
+    "_CONDOR_JOB_AD": "/local/condor/execute/dir_122614/.job.ad"
+    "_CONDOR_JOB_IWD": "/local/condor/execute/dir_122614"
+    "_CONDOR_JOB_PIDS": ""
+    "_CONDOR_MACHINE_AD": "/local/condor/execute/dir_122614/.machine.ad"
+    "_CONDOR_MAX_DAGMAN_LOG": "0"
+    "_CONDOR_SCHEDD_ADDRESS_FILE": "/local/condor/spool/.schedd_address"
+    "_CONDOR_SCHEDD_DAEMON_AD_FILE": "/local/condor/spool/.schedd_classad"
+    "_CONDOR_SCRATCH_DIR": "/local/condor/execute/dir_122614"
+    "_CONDOR_SLOT": "slot1_45"
+    "_CONDOR_WRAPPER_ERROR_FILE": "/local/condor/execute/dir_122614/.job_wrapper_failure"
+    "_condor_SCHEDD_ADDRESS_FILE": "/local/condor/spool/.schedd_address"
+    "_condor_SCHEDD_DAEMON_AD_FILE": "/local/condor/spool/.schedd_classad"
+    "pegasus_lite_work_dir": "/local/condor/execute/dir_122614/pegasus.kelWzwgQc"
+    "pegasus_lite_work_dir_created": "1"
+  limits:
+    RLIMIT_CPU_soft: unlimited
+    RLIMIT_CPU_hard: unlimited
+    RLIMIT_FSIZE_soft: unlimited
+    RLIMIT_FSIZE_hard: unlimited
+    RLIMIT_DATA_soft: unlimited
+    RLIMIT_DATA_hard: unlimited
+    RLIMIT_STACK_soft: unlimited
+    RLIMIT_STACK_hard: unlimited
+    RLIMIT_CORE_soft: 0
+    RLIMIT_CORE_hard: 0
+    RESOURCE_5_soft: unlimited
+    RESOURCE_5_hard: unlimited
+    RLIMIT_NPROC_soft: 2063238
+    RLIMIT_NPROC_hard: 2063238
+    RLIMIT_NOFILE_soft: 32767
+    RLIMIT_NOFILE_hard: 32767
+    RLIMIT_MEMLOCK_soft: 65536
+    RLIMIT_MEMLOCK_hard: 65536
+    RLIMIT_AS_soft: unlimited
+    RLIMIT_AS_hard: unlimited
+    RLIMIT_LOCKS_soft: unlimited
+    RLIMIT_LOCKS_hard: unlimited
+    RLIMIT_SIGPENDING_soft: 2063238
+    RLIMIT_SIGPENDING_hard: 2063238
+    RLIMIT_MSGQUEUE_soft: 819200
+    RLIMIT_MSGQUEUE_hard: 819200
+    RLIMIT_NICE_soft: 0
+    RLIMIT_NICE_hard: 0
+    RLIMIT_RTPRIO_soft: 0
+    RLIMIT_RTPRIO_hard: 0
+    RESOURCE_15_soft: unlimited
+    RESOURCE_15_hard: unlimited
+
+---------------pegasus-multipart
+- transfer_attempts:
+  - src_url: "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/config/prior.ini"
+    src_label: "condorpool_symlink"
+    dst_url: "symlink:///local/condor/execute/dir_122614/pegasus.kelWzwgQc/prior.ini"
+    dst_label: "condorpool_symlink"
+    success: True
+    start: 1652918353
+    duration: 0.0
+    lfn: "prior.ini"
+    bytes: 2200
+  - src_url: "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/inj_245.ini"
+    src_label: "condorpool_symlink"
+    dst_url: "symlink:///local/condor/execute/dir_122614/pegasus.kelWzwgQc/inj_245.ini"
+    dst_label: "condorpool_symlink"
+    success: True
+    start: 1652918353
+    duration: 0.0
+    lfn: "inj_245.ini"
+    bytes: 366
+
+---------------pegasus-multipart
+- transfer_attempts:
+  - src_url: "file:///local/condor/execute/dir_122614/pegasus.kelWzwgQc/H1-INFERENCE_245-0-10.hdf"
+    src_label: "condorpool_symlink"
+    dst_url: "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-INFERENCE_245-0-10.hdf"
+    dst_label: "local"
+    success: False
+    start: 1652918422
+    duration: 0.0
+    lfn: "H1-INFERENCE_245-0-10.hdf"
+  - src_url: "file:///local/condor/execute/dir_122614/pegasus.kelWzwgQc/H1-INFERENCE_245-0-10.hdf"
+    src_label: "condorpool_symlink"
+    dst_url: "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-INFERENCE_245-0-10.hdf"
+    dst_label: "local"
+    success: False
+    start: 1652918553
+    duration: 0.0
+    lfn: "H1-INFERENCE_245-0-10.hdf"
+  - src_url: "file:///local/condor/execute/dir_122614/pegasus.kelWzwgQc/H1-INFERENCE_245-0-10.hdf"
+    src_label: "condorpool_symlink"
+    dst_url: "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-INFERENCE_245-0-10.hdf"
+    dst_label: "local"
+    success: False
+    start: 1652918855
+    duration: 0.0
+    lfn: "H1-INFERENCE_245-0-10.hdf"

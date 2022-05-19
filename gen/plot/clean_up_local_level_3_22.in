@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-INFERENCE_390-0-10.hdf", "recursive": "False" } }
+  ,
+  {
+    "id": 2,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-INFERENCE_693-0-10.hdf", "recursive": "False" } }
+  ,
+  {
+    "id": 3,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-INFERENCE_387-0-10.hdf", "recursive": "False" } }
+]

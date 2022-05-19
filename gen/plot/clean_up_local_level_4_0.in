@@ -1,0 +1,251 @@
+[
+  {
+    "id": 1,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_526-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 2,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_875-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 3,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_764-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 4,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_933-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 5,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_650-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 6,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_191-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 7,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_293-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 8,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_42-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 9,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_665-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 10,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_165-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 11,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_272-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 12,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_605-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 13,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_190-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 14,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_70-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 15,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_457-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 16,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_789-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 17,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_311-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 18,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_707-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 19,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_953-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 20,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_364-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 21,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_513-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 22,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_199-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 23,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_3-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 24,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_630-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 25,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_596-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 26,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_697-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 27,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_327-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 28,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_673-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 29,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_971-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 30,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_168-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 31,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_806-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 32,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_894-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 33,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_639-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 34,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_395-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 35,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_197-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 36,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_85-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 37,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_723-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 38,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_29-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 39,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_355-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 40,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_547-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 41,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_693-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 42,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_646-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 43,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_467-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 44,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_535-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 45,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_52-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 46,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_287-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 47,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_379-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 48,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_813-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 49,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_708-0-10.png", "recursive": "False" } }
+  ,
+  {
+    "id": 50,
+    "type": "remove",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_930-0-10.png", "recursive": "False" } }
+]

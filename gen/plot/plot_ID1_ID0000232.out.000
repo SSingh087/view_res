@@ -1,0 +1,224 @@
+- invocation: True
+  version: 3.0
+  start: 2022-05-19T08:52:14.703+00:00
+  duration: 18.229
+  transformation: "plot_ID1"
+  derivation: "ID0000232"
+  resource: "condorpool_symlink"
+  wf-label: "gw.dax"
+  wf-stamp: "2022-05-18T12:41:59+00:00"
+  interface: eno1
+  hostaddr: 172.23.62.3
+  hostname: mga6203.atlas.local
+  pid: 4254
+  uid: 5659
+  user: shashwat.singh
+  gid: 5000
+  group: atlas
+  umask: 0o0022
+  mainjob:
+    start: 2022-05-19T08:52:14.970+00:00
+    duration: 17.962
+    pid: 4258
+    usage:
+      utime: 14.847
+      stime: 1.892
+      maxrss: 321476
+      minflt: 192910
+      majflt: 5
+      nswap: 0
+      inblock: 7752
+      outblock: 7328
+      msgsnd: 0
+      msgrcv: 0
+      nsignals: 0
+      nvcsw: 5850
+      nivcsw: 1690
+    status:
+      raw: 0
+      regular_exitcode: 0
+    executable:
+      file_name: /work/shashwat.singh/cbc-hm/bin/pycbc_inference_plot_posterior
+      mode: 0o100755
+      size: 13510
+      inode: 43433
+      nlink: 1
+      blksize: 1048576
+      blocks: 22
+      mtime: 2022-05-03T18:46:19+00:00
+      atime: 2022-05-19T06:22:27+00:00
+      ctime: 2022-05-03T18:46:19+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+    argument_vector:
+      - "--z-arg"
+      - "snr"
+      - "--plot-injection-parameters"
+      - "--pick-injection-by-time"
+      - "--input-file"
+      - "H1-INFERENCE_560-0-10.hdf"
+      - "--output-file"
+      - "H1-PLOT_560-0-10.png"
+    procs:
+  jobids:
+    condor: 8544422.0
+  cwd: /local/condor/execute/dir_4080/pegasus.qMTKdrtXN
+  usage:
+    utime: 0.091
+    stime: 0.174
+    maxrss: 2232
+    minflt: 142
+    majflt: 0
+    nswap: 0
+    inblock: 32
+    outblock: 0
+    msgsnd: 0
+    msgrcv: 0
+    nsignals: 0
+    nvcsw: 5
+    nivcsw: 30
+  machine:
+    page-size: 4096
+    uname_system: linux
+    uname_nodename: a6203
+    uname_release: 4.19.0-17-amd64
+    uname_machine: x86_64
+    ram_total: 528229056
+    ram_free: 87145100
+    ram_shared: 3475732
+    ram_buffer: 0
+    swap_total: 0
+    swap_free: 0
+    cpu_count: 128
+    cpu_speed: 2347
+    cpu_vendor: AuthenticAMD
+    cpu_model: AMD EPYC 7452 32-Core Processor
+    load_min1: 131.82
+    load_min5: 130.85
+    load_min15: 124.07
+    procs_total: 1849
+    procs_running: 121
+    procs_sleeping: 1086
+    procs_other: 642
+    procs_vmsize: 2412272828
+    procs_rss: 173711444
+    task_total: 9957
+    task_running: 140
+    task_sleeping: 9175
+    task_other: 642
+  files:
+    H1-PLOT_560-0-10.png:
+      lfn: "H1-PLOT_560-0-10.png"
+      file_name: /local/condor/execute/dir_4080/pegasus.qMTKdrtXN/H1-PLOT_560-0-10.png
+      mode: 0o100644
+      size: 1858790
+      inode: 4379121267
+      nlink: 1
+      blksize: 4096
+      blocks: 3632
+      mtime: 2022-05-19T08:52:31+00:00
+      atime: 2022-05-19T08:52:30+00:00
+      ctime: 2022-05-19T08:52:31+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+      output: True
+      sha256: 0d8e9a5b814ee150414e1f361ff4fb04379cf69da12f16c34f99bbfc43bc6453
+      checksum_timing: 0.02
+    stdin:
+      file_name: /dev/null
+      mode: 0o20666
+      size: 0
+      inode: 1028
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2021-09-03T18:14:13+00:00
+      atime: 2021-09-03T18:14:13+00:00
+      ctime: 2021-09-03T18:14:13+00:00
+      uid: 0
+      user: root
+      gid: 0
+      group: root
+    stdout:
+      temporary_name: /local/condor/execute/dir_4080/ks.out.mEpzlb
+      descriptor: 3
+      mode: 0o100600
+      size: 0
+      inode: 2199755726
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2022-05-19T08:52:14+00:00
+      atime: 2022-05-19T08:52:14+00:00
+      ctime: 2022-05-19T08:52:14+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+    stderr:
+      temporary_name: /local/condor/execute/dir_4080/ks.err.Ut23R5
+      descriptor: 4
+      mode: 0o100600
+      size: 340
+      inode: 2199755728
+      nlink: 1
+      blksize: 4096
+      blocks: 8
+      mtime: 2022-05-19T08:52:19+00:00
+      atime: 2022-05-19T08:52:14+00:00
+      ctime: 2022-05-19T08:52:19+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+      data_truncated: false
+      data: |
+        /work/shashwat.singh/cbc-hm/bin/pycbc_inference_plot_posterior:221: DeprecationWarning: The 'warn' function is deprecated, use 'warning' instead
+          logging.warn("Could not find injection parameter {}".format(p))
+        2022-05-19 08:52:19,637 Could not find injection parameter delta_tc
+        2022-05-19 08:52:19,637 Could not find injection parameter q
+        
+    metadata:
+      temporary_name: /local/condor/execute/dir_4080/ks.meta.DpWyo0
+      descriptor: 5
+      mode: 0o100600
+      size: 0
+      inode: 2199755729
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2022-05-19T08:52:14+00:00
+      atime: 2022-05-19T08:52:14+00:00
+      ctime: 2022-05-19T08:52:14+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+
+---------------pegasus-multipart
+- transfer_attempts:
+  - src_url: "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-INFERENCE_560-0-10.hdf"
+    src_label: "local"
+    dst_url: "symlink:///local/condor/execute/dir_4080/pegasus.qMTKdrtXN/H1-INFERENCE_560-0-10.hdf"
+    dst_label: "condorpool_symlink"
+    success: True
+    start: 1652950335
+    duration: 0.0
+    lfn: "H1-INFERENCE_560-0-10.hdf"
+    bytes: 1554954
+
+---------------pegasus-multipart
+- transfer_attempts:
+  - src_url: "file:///local/condor/execute/dir_4080/pegasus.qMTKdrtXN/H1-PLOT_560-0-10.png"
+    src_label: "condorpool_symlink"
+    dst_url: "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work/./H1-PLOT_560-0-10.png"
+    dst_label: "local"
+    success: True
+    start: 1652950355
+    duration: 0.0
+    lfn: "H1-PLOT_560-0-10.png"
+    bytes: 1858790
