@@ -1,0 +1,183 @@
+- invocation: True
+  version: 3.0
+  start: 2022-05-18T12:42:41.857+00:00
+  duration: 2.463
+  transformation: "pegasus::dirmanager"
+  derivation: "null"
+  resource: "local"
+  wf-label: "gw.dax"
+  wf-stamp: "2022-05-18T12:41:59+00:00"
+  interface: enp2s0f0
+  hostaddr: 130.75.116.20
+  hostname: condor5.atlas.aei.uni-hannover.de
+  pid: 1954486
+  uid: 5659
+  user: shashwat.singh
+  gid: 5000
+  group: atlas
+  umask: 0o0022
+  mainjob:
+    start: 2022-05-18T12:42:42.168+00:00
+    duration: 2.151
+    pid: 1954498
+    usage:
+      utime: 0.118
+      stime: 0.027
+      maxrss: 17880
+      minflt: 9653
+      majflt: 0
+      nswap: 0
+      inblock: 0
+      outblock: 16
+      msgsnd: 0
+      msgrcv: 0
+      nsignals: 0
+      nvcsw: 106
+      nivcsw: 1
+    status:
+      raw: 0
+      regular_exitcode: 0
+    executable:
+      file_name: /software/tools/pegasus/5.0/bin/pegasus-transfer
+      mode: 0o100755
+      size: 2867
+      inode: 1176196
+      nlink: 1
+      blksize: 1048576
+      blocks: 9
+      mtime: 2021-10-07T18:53:08+00:00
+      atime: 2022-05-17T14:15:52+00:00
+      ctime: 2021-10-13T11:27:17+00:00
+      uid: 1000
+      gid: 1000
+    argument_vector:
+    procs:
+  jobids:
+    condor: 8528335.0
+  cwd: /local/user/shashwat.singh/pycbc-tmp.cwxh3vQ1Uj/work
+  usage:
+    utime: 0.123
+    stime: 0.190
+    maxrss: 5876
+    minflt: 246
+    majflt: 0
+    nswap: 0
+    inblock: 0
+    outblock: 0
+    msgsnd: 0
+    msgrcv: 0
+    nsignals: 0
+    nvcsw: 6
+    nivcsw: 12
+  machine:
+    page-size: 4096
+    uname_system: linux
+    uname_nodename: condor5
+    uname_release: 4.19.0-16-amd64
+    uname_machine: x86_64
+    ram_total: 527981224
+    ram_free: 6161132
+    ram_shared: 32724480
+    ram_buffer: 0
+    swap_total: 0
+    swap_free: 0
+    cpu_count: 32
+    cpu_speed: 2095
+    cpu_vendor: GenuineIntel
+    cpu_model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+    load_min1: 10.01
+    load_min5: 5.89
+    load_min15: 3.65
+    procs_total: 6172
+    procs_running: 5
+    procs_sleeping: 5974
+    procs_waiting: 1
+    procs_stopped: 1
+    procs_zombie: 1
+    procs_other: 190
+    procs_vmsize: 367077304
+    procs_rss: 263993428
+    task_total: 6321
+    task_running: 5
+    task_sleeping: 6123
+    task_waiting: 1
+    task_stopped: 1
+    task_zombie: 1
+    task_other: 190
+  files:
+    stdin:
+      descriptor_number: 0
+      mode: 0o100644
+      size: 199
+      inode: 31803783
+      nlink: 1
+      blksize: 512
+      blocks: 9
+      mtime: 2022-05-18T12:42:26+00:00
+      atime: 2022-05-18T12:42:26+00:00
+      ctime: 2022-05-18T12:42:26+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+    stdout:
+      temporary_name: /local/condor/spool/local_univ_execute/dir_1954478/ks.out.MzO6DB
+      descriptor: 3
+      mode: 0o100600
+      size: 930
+      inode: 136893305
+      nlink: 1
+      blksize: 4096
+      blocks: 8
+      mtime: 2022-05-18T12:42:44+00:00
+      atime: 2022-05-18T12:42:42+00:00
+      ctime: 2022-05-18T12:42:44+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+      data_truncated: false
+      data: |
+        2022-05-18 12:42:42,284    INFO:  Reading URL pairs from stdin
+        2022-05-18 12:42:42,284    INFO:  1 transfers loaded
+        2022-05-18 12:42:42,285    INFO:  PATH=/software/tools/pegasus/5.0/bin/:/work/shashwat.singh/cbc-hm/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/sbin
+        2022-05-18 12:42:42,285    INFO:  LD_LIBRARY_PATH=
+        2022-05-18 12:42:42,298    INFO:  --------------------------------------------------------------------------------
+        2022-05-18 12:42:42,299    INFO:  Starting transfers - attempt 1
+        2022-05-18 12:42:44,301    INFO:  /bin/mkdir -p '/work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_gen_specific/output/local-site-scratch/work' 
+        2022-05-18 12:42:44,309    INFO:  --------------------------------------------------------------------------------
+        2022-05-18 12:42:44,309    INFO:  Stats: no local files in the transfer set
+        2022-05-18 12:42:44,309    INFO:  All transfers completed successfully.
+        
+    stderr:
+      temporary_name: /local/condor/spool/local_univ_execute/dir_1954478/ks.err.0T9cmP
+      descriptor: 4
+      mode: 0o100600
+      size: 0
+      inode: 136893307
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2022-05-18T12:42:42+00:00
+      atime: 2022-05-18T12:42:42+00:00
+      ctime: 2022-05-18T12:42:42+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas
+    metadata:
+      temporary_name: /local/condor/spool/local_univ_execute/dir_1954478/ks.meta.KQhk42
+      descriptor: 5
+      mode: 0o100600
+      size: 0
+      inode: 136893308
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2022-05-18T12:42:42+00:00
+      atime: 2022-05-18T12:42:42+00:00
+      ctime: 2022-05-18T12:42:42+00:00
+      uid: 5659
+      user: shashwat.singh
+      gid: 5000
+      group: atlas

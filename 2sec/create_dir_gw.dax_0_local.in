@@ -1,0 +1,6 @@
+[
+  {
+    "id": 1,
+    "type": "mkdir",
+    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_single_sec-memory-defined/output/local-site-scratch/work" } }
+]
