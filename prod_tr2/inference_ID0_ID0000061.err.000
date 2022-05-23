@@ -1,0 +1,50 @@
+2022-05-20 14:22:35: PegasusLite: version 5.0.1
+2022-05-20 14:22:35: Executing on host a2907.atlas.local IP=172.23.29.7
+
+########################[Pegasus Lite] Setting up workdir ########################
+2022-05-20 14:22:35: Checking /local/condor/execute/dir_110536 for potential use as work space... 
+2022-05-20 14:22:35:   Workdir is /local/condor/execute/dir_110536/pegasus.HUfa1wIT3 - 3.6T available
+2022-05-20 14:22:35: Changing cwd to /local/condor/execute/dir_110536/pegasus.HUfa1wIT3
+
+##############[Pegasus Lite] Figuring out the worker package to use ##############
+2022-05-20 14:22:35: The job contained a Pegasus worker package
+
+###################### Staging in input data and executables ######################
+2022-05-20 14:22:35,730    INFO:  Reading URL pairs from stdin
+2022-05-20 14:22:35,731    INFO:  2 transfers loaded
+2022-05-20 14:22:35,731    INFO:  PATH=/local/condor/execute/dir_110536/pegasus.HUfa1wIT3/pegasus-5.0.1-x86_64_deb_10/bin:/software/tools/pegasus/5.0/bin/:/work/shashwat.singh/cbc-hm/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/sbin
+2022-05-20 14:22:35,731    INFO:  LD_LIBRARY_PATH=
+2022-05-20 14:22:35,750    INFO:  --------------------------------------------------------------------------------
+2022-05-20 14:22:35,750    INFO:  Starting transfers - attempt 1
+2022-05-20 14:22:37,754    INFO:  ln -f -s '/work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/prod_tr2/inj_132.ini' '/local/condor/execute/dir_110536/pegasus.HUfa1wIT3/inj_132.ini'
+2022-05-20 14:22:37,764    INFO:  ln -f -s '/work/shashwat.singh/3gsky/IMRPhenomXPHM/mass-eq/test_run_2/prior.ini' '/local/condor/execute/dir_110536/pegasus.HUfa1wIT3/prior.ini'
+2022-05-20 14:22:37,770    INFO:  --------------------------------------------------------------------------------
+2022-05-20 14:22:37,771    INFO:  Stats: Total 2 transfers, 2.5 KB transferred in 2 seconds. Rate: 1.2 KB/s (9.8 Kb/s)
+2022-05-20 14:22:37,771    INFO:         Between sites condorpool_symlink->condorpool_symlink : 2 transfers, 2.5 KB transferred in 2 seconds. Rate: 1.2 KB/s (9.8 Kb/s)
+2022-05-20 14:22:37,771    INFO:  All transfers completed successfully.
+
+##################### Checking file integrity for input files #####################
+
+######################[Pegasus Lite] Executing the user task ######################
+
+############################ Staging out output files ############################
+2022-05-20 14:23:18,065    INFO:  Reading URL pairs from stdin
+2022-05-20 14:23:18,066    INFO:  1 transfers loaded
+2022-05-20 14:23:18,066    INFO:  PATH=/local/condor/execute/dir_110536/pegasus.HUfa1wIT3/pegasus-5.0.1-x86_64_deb_10/bin:/software/tools/pegasus/5.0/bin/:/work/shashwat.singh/cbc-hm/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/sbin
+2022-05-20 14:23:18,066    INFO:  LD_LIBRARY_PATH=
+2022-05-20 14:23:18,085    INFO:  --------------------------------------------------------------------------------
+2022-05-20 14:23:18,086    INFO:  Starting transfers - attempt 1
+2022-05-20 14:23:20,088   ERROR:  Expected local file does not exist: /local/condor/execute/dir_110536/pegasus.HUfa1wIT3/H1-INFERENCE_132-0-10.hdf
+2022-05-20 14:25:27,186    INFO:  --------------------------------------------------------------------------------
+2022-05-20 14:25:27,187    INFO:  Starting transfers - attempt 2
+2022-05-20 14:25:29,190   ERROR:  Expected local file does not exist: /local/condor/execute/dir_110536/pegasus.HUfa1wIT3/H1-INFERENCE_132-0-10.hdf
+2022-05-20 14:30:29,290    INFO:  --------------------------------------------------------------------------------
+2022-05-20 14:30:29,291    INFO:  Starting transfers - attempt 3
+2022-05-20 14:30:31,294   ERROR:  Expected local file does not exist: /local/condor/execute/dir_110536/pegasus.HUfa1wIT3/H1-INFERENCE_132-0-10.hdf
+2022-05-20 14:30:31,295    INFO:  --------------------------------------------------------------------------------
+2022-05-20 14:30:31,295    INFO:  Stats: Total 3 transfers, 0.0 B transferred in 433 seconds. Rate: 0.0 B/s (0.0 b/s)
+2022-05-20 14:30:31,296    INFO:         Between sites condorpool_symlink->local : 3 transfers, 0.0 B transferred in 433 seconds. Rate: 0.0 B/s (0.0 b/s)
+2022-05-20 14:30:31,296 CRITICAL:  Some transfers failed! See above, and possibly stderr.
+2022-05-20 14:30:31: Last command exited with 1
+2022-05-20 14:30:31: /local/condor/execute/dir_110536/pegasus.HUfa1wIT3 cleaned up
+PegasusLite: exitcode 1
