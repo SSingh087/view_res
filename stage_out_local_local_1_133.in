@@ -1,0 +1,121 @@
+[
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_74703-0-10.png",
+   "id": 1,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-PLOT_74703-0-10.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/plot/H1-PLOT_74703-0-10.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_12169-0-10.png",
+   "id": 2,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-PLOT_12169-0-10.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/plot/H1-PLOT_12169-0-10.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_88939-0-10.png",
+   "id": 3,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-PLOT_88939-0-10.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/plot/H1-PLOT_88939-0-10.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_85354-0-10.png",
+   "id": 4,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-PLOT_85354-0-10.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/plot/H1-PLOT_85354-0-10.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_95533-0-10.png",
+   "id": 5,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-PLOT_95533-0-10.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/plot/H1-PLOT_95533-0-10.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_92025-0-10.png",
+   "id": 6,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-PLOT_92025-0-10.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/plot/H1-PLOT_92025-0-10.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_25062-0-10.png",
+   "id": 7,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-PLOT_25062-0-10.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/plot/H1-PLOT_25062-0-10.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_38194-0-10.png",
+   "id": 8,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-PLOT_38194-0-10.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/plot/H1-PLOT_38194-0-10.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_51067-0-10.png",
+   "id": 9,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-PLOT_51067-0-10.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/plot/H1-PLOT_51067-0-10.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_78055-0-10.png",
+   "id": 10,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-PLOT_78055-0-10.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/plot/H1-PLOT_78055-0-10.png" }
+   ] }
+]

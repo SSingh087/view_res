@@ -1,0 +1,121 @@
+[
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_67405-0-10.hdf",
+   "id": 1,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-INFERENCE_67405-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/inference/H1-INFERENCE_67405-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_16108-0-10.hdf",
+   "id": 2,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-INFERENCE_16108-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/inference/H1-INFERENCE_16108-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_17625-0-10.hdf",
+   "id": 3,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-INFERENCE_17625-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/inference/H1-INFERENCE_17625-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_30377-0-10.hdf",
+   "id": 4,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-INFERENCE_30377-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/inference/H1-INFERENCE_30377-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_26916-0-10.hdf",
+   "id": 5,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-INFERENCE_26916-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/inference/H1-INFERENCE_26916-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_12932-0-10.hdf",
+   "id": 6,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-INFERENCE_12932-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/inference/H1-INFERENCE_12932-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_26485-0-10.hdf",
+   "id": 7,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-INFERENCE_26485-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/inference/H1-INFERENCE_26485-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_58466-0-10.hdf",
+   "id": 8,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-INFERENCE_58466-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/inference/H1-INFERENCE_58466-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_52317-0-10.hdf",
+   "id": 9,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-INFERENCE_52317-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/inference/H1-INFERENCE_52317-0-10.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-INFERENCE_57388-0-10.hdf",
+   "id": 10,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work/./H1-INFERENCE_57388-0-10.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/inference/H1-INFERENCE_57388-0-10.hdf" }
+   ] }
+]
