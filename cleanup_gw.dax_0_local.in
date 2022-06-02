@@ -1,6 +1,0 @@
-[
-  {
-    "id": 1,
-    "type": "remove",
-    "target": { "site_label": "local", "url": "file:///work/shashwat.singh/population-1e5/TaylorF2/ET/30/output/local-site-scratch/work", "recursive": "True" } }
-]

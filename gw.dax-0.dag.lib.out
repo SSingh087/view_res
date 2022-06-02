@@ -1,4 +1,0 @@
-Pegasus DAGMAN is /software/tools/pegasus/5.0/lib/python3.7/dist-packages/Pegasus/cli/pegasus-dagman.py
-2022-05-30 12:06:09,863:INFO:pegasus-dagman(158): DAGMAN_COPY_TO_SPOOL is set to b'false\n'
-2022-05-30 12:06:09,865:INFO:pegasus-dagman(114): Launched Dagman with Pid 2100481
-2022-05-30 12:06:09,867:INFO:pegasus-dagman(141): Launched Monitord with Pid 2100482
